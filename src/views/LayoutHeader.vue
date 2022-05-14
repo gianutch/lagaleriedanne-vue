@@ -15,7 +15,7 @@
 					id="header-nav-laptop"
 					class="nav-horizontal nav-small float-right display-laptop display-desktop"
 				>
-					<layout-nav></layout-nav>
+					<layout-nav-main></layout-nav-main>
 				</ul>
 
 				<!-- menu mobile -->
@@ -36,7 +36,7 @@
 
 <script>
 	import Json from "../data/data.json";
-	import LayoutNav from "./LayoutNav.vue";
+	import LayoutNavMain from "./LayoutNavMain.vue";
 	import IconCaret from "../icons/IconCaret.vue";
 
 	export default {
@@ -46,7 +46,7 @@
 			};
 		},
 		components: {
-			LayoutNav,
+			LayoutNavMain,
 			IconCaret,
 		},
 		methods: {

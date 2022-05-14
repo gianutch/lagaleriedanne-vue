@@ -34,24 +34,15 @@
 		</div>
 		<!-- /art -->
 
-		<div class="gallery-buttons align-center">
-			<router-link
-				to="/paintings"
-				class="button button-small button-base--ghost button-block"
-				>Peintures</router-link
-			>
-			<router-link
-				to="/watercolors"
-				class="button button-small button-base--ghost button-block"
-				>Aquarelles</router-link
-			>
-			<router-link
-				to="/drawings"
-				class="button button-small button-base--ghost button-block"
-				>Dessins</router-link
-			>
+		<div class="gallery-nav align-center">
+			<layout-nav-gallery></layout-nav-gallery>
 		</div>
-
+		<button
+			class="button button-white--ghost button-special gallery-arrowleft"
+			v-on:click="smoothscrollLeft"
+		>
+			<icon-arrowright class="icon"></icon-arrowright>
+		</button>
 		<button
 			class="button button-white--ghost button-special gallery-arrowright"
 			v-on:click="smoothscrollRight"
@@ -63,6 +54,7 @@
 
 <script>
 	import Json from "../data/data.json";
+	import LayoutNavGallery from "./LayoutNavGallery.vue";
 	import IconArrowright from "../icons/IconArrowright.vue";
 	import mixinScrollLateral from "../mixins/mixinScrollLateral.js";
 
@@ -73,6 +65,7 @@
 			};
 		},
 		components: {
+			LayoutNavGallery,
 			IconArrowright,
 		},
 		mixins: [mixinScrollLateral],

@@ -1,7 +1,10 @@
 export default {
 	methods: {
 		smoothscrollRight() {
-			window.scrollBy(100, 0);
+			document.getElementById("paintings").scrollBy(200, 0);
+		},
+		smoothscrollLeft() {
+			document.getElementById("paintings").scrollBy(-200, 0);
 		},
 	},
 };

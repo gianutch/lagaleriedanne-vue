@@ -1818,11 +1818,20 @@ footer h6 {
   color: rgba(51, 51, 51, 0.64);
   margin-bottom: 0;
 }
-.gallery .gallery-buttons {
+.gallery .gallery-nav {
   display: inline-block;
   width: auto;
   margin-left: 5%;
   margin-right: 10%;
+}
+.gallery .gallery-arrowleft {
+  display: none;
+  position: absolute;
+  left: 32px;
+  top: 45%;
+  bottom: 0;
+  width: 56px;
+  margin-bottom: 0;
 }
 .gallery .gallery-arrowright {
   display: none;
