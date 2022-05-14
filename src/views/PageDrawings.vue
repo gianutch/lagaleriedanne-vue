@@ -51,7 +51,6 @@
 	import Json from "../data/data.json";
 	import LayoutNavGallery from "./LayoutNavGallery.vue";
 	import IconArrowright from "../icons/IconArrowright.vue";
-	import mixinScrollLateral from "../mixins/mixinScrollLateral.js";
 
 	export default {
 		data() {
@@ -63,6 +62,13 @@
 			LayoutNavGallery,
 			IconArrowright,
 		},
-		mixins: [mixinScrollLateral],
+		methods: {
+			smoothscrollRight() {
+				document.getElementById("drawings").scrollBy(200, 0);
+			},
+			smoothscrollLeft() {
+				document.getElementById("drawings").scrollBy(-200, 0);
+			},
+		},
 	};
 </script>
