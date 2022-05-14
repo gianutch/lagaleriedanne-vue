@@ -1,0 +1,377 @@
+/* BASE ============================================================ */
+//button.button are for actions
+//a.links are for links and navs between pages & views
+.button {
+	//universal
+	text-align: center;
+	border-radius: $setting-radius--soft;
+	box-shadow: none;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	transition: $setting-transition;
+
+	&:active {
+		transition: none;
+
+		svg.icon path {
+			transition: none;
+		}
+	}
+
+	svg.icon path {
+		transition: $setting-transition;
+	}
+
+	//size
+	height: $b56;
+	min-width: 240px;
+	padding-top: 8px;
+	padding-right: $b32;
+	padding-left: $b32;
+	margin-bottom: $b16;
+	display: inline-block;
+	width: auto;
+
+	//style
+	border: 0;
+	font-weight: 700;
+	color: white;
+
+	svg.icon {
+		// icon big
+		max-height: 30px;
+		max-width: 30px;
+
+		path {
+			fill: white;
+		}
+	}
+}
+
+/* STYLES ============================================================ */
+.button.button-primary {
+	background-color: $color-primary;
+
+	&:hover:enabled {
+		background-color: $color-primary--hover;
+	}
+}
+
+.button.button-base {
+	color: $color-base;
+	background-color: $color-base--background;
+
+	&:hover:enabled {
+		color: $color-primary--hover;
+		background-color: $color-base--background;
+
+		svg.icon path {
+			fill: $color-primary--hover;
+		}
+	}
+
+	svg.icon path {
+		fill: $color-base;
+	}
+}
+
+.button.button-primary--ghost {
+	color: $color-primary;
+	border: 2px solid $color-primary;
+	background-color: rgba(0, 0, 0, 0.12);
+
+	&:hover:enabled {
+		color: $color-primary--hover;
+		border: 2px solid $color-primary--hover;
+		// background-color: $color-base--background;
+
+		svg.icon path {
+			fill: $color-primary--hover;
+		}
+	}
+
+	svg.icon path {
+		fill: $color-primary;
+	}
+}
+
+.button.button-base--ghost {
+	color: $color-base;
+	border: 2px solid $color-base;
+	background-color: transparent;
+
+	&:hover {
+		color: $color-primary--hover;
+		border: 2px solid $color-primary--hover;
+
+		svg.icon path {
+			fill: $color-primary--hover;
+		}
+	}
+
+	svg.icon path {
+		fill: $color-base;
+	}
+}
+
+.button.button-white--ghost {
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	background-color: rgba(0, 0, 0, 0.12);
+
+	&:hover:enabled {
+		color: $color-primary--hover;
+		border: 2px solid $color-primary--hover;
+
+		svg.icon path {
+			fill: $color-primary--hover;
+		}
+	}
+}
+
+.button.button-success {
+	background-color: $color-success;
+
+	&:hover:enabled {
+		background-color: $color-success--hover;
+	}
+}
+
+.button.button-danger {
+	background-color: $color-danger;
+
+	&:hover:enabled {
+		background-color: $color-danger--hover;
+	}
+}
+
+/* SIZES ============================================================ */
+.button.button-block {
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.button.button-small {
+	height: 40px;
+	min-width: 160px;
+	padding-right: $b24;
+	padding-left: $b24;
+	margin-bottom: $b16;
+
+	svg.icon {
+		// icon normal
+		max-height: 20px;
+		max-width: 20px;
+	}
+}
+
+.button.button-mini {
+	height: $b24;
+	min-width: 1px;
+	padding-right: $b16;
+	padding-left: $b16;
+	margin-left: $b4;
+	margin-right: $b4;
+	margin-bottom: $b8;
+
+	svg.icon {
+		// icon small
+		max-height: 16px;
+		max-width: 16px;
+	}
+}
+
+/* TAG ============================================================ */
+.button.button-tag {
+	border-radius: $setting-radius--round;
+	// font-weight: 400;
+}
+
+/* SPECIAL ============================================================ */
+// .button.button-special-text {
+// }
+// .button.button-special-text--multiple {
+// }
+// .button.button-special-icon--double {
+// }
+.button.button-special {
+	border-radius: $setting-radius--round;
+	min-width: $b56;
+	padding: 0;
+}
+
+/* special sizes */
+.button.button-special.button-small {
+	min-width: $b40;
+}
+
+/* STATE ============================================================ */
+.button {
+	&:disabled {
+		opacity: $setting-opacity--soft;
+		cursor: not-allowed;
+	}
+}
+
+// for js
+.button.button-active {
+	color: white !important;
+	background-color: $color-primary !important;
+	border: 1px solid transparent;
+
+	&:hover:enabled {
+		color: white;
+		background-color: $color-primary--hover !important;
+
+		svg.icon path {
+			fill: white !important;
+		}
+	}
+
+	svg.icon path {
+		fill: white !important;
+	}
+}
+
+/* LINKS ============================================================ */
+//button.button are for actions
+//a.links are for links and navs between pages & views
+.link,
+.link span {
+	// transition: $setting-transition;
+	text-decoration: none;
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:active {
+		text-decoration: underline;
+		transition: none;
+
+		svg.icon path {
+			transition: none;
+		}
+	}
+
+	// svg.icon path {
+	//     // transition: $setting-transition;
+	// }
+}
+
+/* link-style */
+.link.link-primary,
+.link.link-primary span {
+	color: $color-primary;
+
+	&:hover {
+		color: $color-primary--hover;
+
+		svg.icon path {
+			fill: $color-primary--hover;
+		}
+	}
+
+	svg.icon path {
+		fill: $color-primary;
+	}
+}
+
+.link.link-base,
+.link.link-base span {
+	color: $color-base;
+
+	&:hover {
+		color: $color-primary--hover;
+
+		svg.icon path {
+			fill: $color-primary--hover;
+		}
+	}
+
+	svg.icon path {
+		fill: $color-base;
+	}
+}
+
+.link.link-theme,
+.link.link-theme span {
+	color: $color-theme;
+
+	&:hover {
+		color: $color-primary--hover;
+
+		svg.icon path {
+			fill: $color-primary--hover;
+		}
+	}
+
+	svg.icon path {
+		fill: $color-theme;
+	}
+}
+
+.link.link-white,
+.link.link-white span {
+	color: white;
+
+	&:hover {
+		color: $color-primary--hover;
+
+		svg.icon path {
+			fill: $color-primary--hover;
+		}
+	}
+
+	svg.icon path {
+		fill: white;
+	}
+}
+
+.link.link-external,
+.link.link-external span {
+	color: $color-info;
+
+	&:hover {
+		color: $color-info--hover;
+
+		svg.icon path {
+			fill: $color-info--hover;
+		}
+	}
+
+	svg.icon path {
+		fill: $color-info;
+	}
+
+	// &:visited {
+	// 	color: rgb(88,86,214);
+	// }
+	// &:visited:hover {
+	// 	color: rgb(88,86,214);
+	// 	text-decoration: underline;
+	// }
+}
+
+.link.link-active,
+.link.link-active span {
+	color: $color-primary !important;
+
+	&:hover {
+		color: $color-primary--hover !important;
+
+		svg.icon path {
+			fill: $color-primary--hover !important;
+		}
+	}
+
+	svg.icon path {
+		fill: $color-primary !important;
+	}
+}

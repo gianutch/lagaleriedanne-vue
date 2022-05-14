@@ -1,0 +1,156 @@
+/* BASE ============================================================ */
+// ! <select> are for forms / dropdowns are for navs
+
+// ! nav horizontal
+nav {
+    ul.nav-horizontal {
+        text-align: left;
+
+		// ! nav classic
+        li {
+            display: inline-block;
+            margin-left: $b32;
+            margin-right: $b32;
+
+            &:first-of-type {
+                margin-left: 0;
+            }
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            button {
+                margin: 0;
+            }
+        }
+
+        // ! nav dropdown
+        li.nav-dropdown:hover {
+            .link-dropdown,
+			.link-dropdown span {
+                color: $color-primary--hover;
+                text-decoration: none;
+            }
+
+            ul.nav-dropdown-content {
+                display: block;
+            }
+        }
+
+        ul.nav-dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: $color-theme;
+            min-width: 160px;
+            border-radius: $setting-radius--soft;
+            box-shadow: $setting-shadow--soft;
+            z-index: 2;
+            margin-left: -$b16;
+            overflow: hidden;
+
+            li {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            a {
+                padding: $b8 $b16;
+                display: block;
+
+                &:hover {
+                    background-color: $color-base--background;
+                }
+            }
+
+        }
+    }
+}
+
+nav {
+    ul.nav-horizontal.nav-small {
+        li {
+            font-size: 16px;
+            line-height: $b24;
+            margin-left: $b24;
+            margin-right: $b24;
+
+            &:first-of-type {
+                margin-left: 0;
+            }
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            button {
+                margin: 0;
+            }
+        }
+    }
+}
+
+
+// ! nav vertical
+nav {
+    ul.nav-vertical {
+        text-align: left;
+
+        li {
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+
+            margin-top: $b8;
+            margin-bottom: $b8;
+
+            &:first-of-type {
+                margin-top: 0;
+            }
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            ul {
+                margin-left: $b32;
+            }
+        }
+    }
+}
+
+nav {
+    ul.nav-vertical.nav-small {
+
+        li {
+            font-size: 16px;
+            line-height: $b24;
+            margin-top: $b4;
+            margin-bottom: $b4;
+
+            ul {
+                margin-left: $b24;
+            }
+        }
+    }
+}
+
+
+// ! nav icon-caret
+nav {
+    ul {
+        li {
+            svg.icon.icon-mini {
+                margin-left: 12px;
+                vertical-align: middle;
+            }
+        }
+    }
+    ul.nav-small {
+        li {
+            svg.icon.icon-mini {
+                margin-left: 8px;
+            }
+        }
+    }
+}

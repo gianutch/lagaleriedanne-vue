@@ -1,0 +1,138 @@
+/* VARIABLES ============================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+$text-primary: "Roboto", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+$text-secondary: "Alex Brush", cursive;
+
+/* BASE ============================================================ */
+html,
+body {
+	color: $color-base;
+	font-family: $text-primary;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: $b32;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+h5,
+h6,
+nav,
+.h1,
+.h2,
+.h3,
+.h4,
+.p,
+.h5,
+.h6,
+.nav {
+	font-weight: 400;
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+h1,
+.h1 {
+	font-size: 60px;
+	line-height: $b80;
+	margin-bottom: $b32;
+}
+
+h2,
+.h2 {
+	font-size: 50px;
+	line-height: $b64;
+	margin-bottom: $b32;
+}
+
+h3,
+.h3 {
+	font-size: 30px;
+	line-height: $b48;
+	margin-bottom: $b24;
+}
+
+p,
+.p,
+legend,
+label.radio,
+label.checkbox {
+	font-size: 20px;
+	line-height: $b32;
+	margin-bottom: $b16;
+}
+
+h5,
+.h5,
+label,
+.button.button-small,
+a.link.link-small,
+.alert-component {
+	//alerts
+	font-size: 16px;
+	line-height: $b24;
+	margin-bottom: $b16;
+}
+
+h6,
+.h6,
+.button.button-mini,
+a.link.link-mini {
+	font-size: 12px;
+	line-height: $b16;
+	margin-bottom: $b8;
+}
+
+/* CLASSES ============================================================ */
+::selection {
+	color: #ffffff;
+	background: $color-primary--hover;
+}
+
+::-moz-selection {
+	color: #ffffff;
+	background: $color-primary--hover;
+}
+
+.text-secondary {
+	font-family: $text-secondary;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.text-bold,
+a.link.link-bold {
+	font-weight: bold;
+}
+
+// or use <b></b>
+
+.text-italic,
+a.link.link-italic {
+	font-style: italic;
+}
+
+/* RESPONSIVE ============================================================ */
+.text-justify {
+	@media (min-width: 500px) {
+		text-align: justify;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

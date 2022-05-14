@@ -1,0 +1,50 @@
+/* BASE ============================================================ */
+svg.icon {
+	transition: $setting-transition;
+	vertical-align: middle;
+	margin-bottom: 3px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    max-height: 20px;
+    max-width: 20px;
+
+    &:active {
+        transition: none;
+    }
+}
+
+/* STYLES ============================================================ */
+svg.icon.icon-primary path {
+    fill: $color-primary;
+}
+
+svg.icon.icon-base path {
+    fill: $color-base;
+}
+
+svg.icon.icon-theme path {
+    fill: $color-theme;
+}
+
+svg.icon.icon-white path {
+    fill: white;
+}
+
+
+
+/* SIZES ============================================================ */
+svg.icon.icon-mini {
+	max-height: 12px;
+    max-width: 12px;
+}
+
+svg.icon.icon-small {
+    max-height: 16px;
+    max-width: 16px;
+}
+
+svg.icon.icon-big {
+    max-height: 30px;
+    max-width: 30px;
+}

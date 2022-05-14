@@ -1,0 +1,11 @@
+footer {
+    color: $color-theme;
+    background-color: $color-base;
+    padding-top: $b32;
+    padding-bottom: $b32;
+	z-index: 1;
+
+    h6 {
+        margin: 0
+	}
+}

@@ -1,0 +1,50 @@
+/* VARIABLES ============================================================ */
+//opacity (opacity:)
+$setting-opacity--soft: 0.32;
+$setting-opacity--strong: 0.80;
+
+//blur (fliter:)
+$setting-blur: blur($b8);
+
+//transition (transition:)
+$setting-transition: all 0.3s ease-in-out;
+
+//border-radius (border-radius:)
+$setting-radius--soft: $b4;
+$setting-radius--strong: $b8;
+$setting-radius--round: 1000px;
+
+//shadow (box-shadow:)
+$setting-shadow--soft: 0 2px 4px rgba(0, 0, 0, 0.12),
+0 1px 3px rgba(0, 0, 0, 0.24);
+$setting-shadow--strong: 0 10px 20px rgba(0, 0, 0, 0.19),
+0 5px 10px rgba(0, 0, 0, 0.24);
+
+//border (border:)
+// set in colors
+
+
+/* SETTING CLASSES ============================================================ */
+.setting-opacity--soft {
+    opacity: $setting-opacity--soft;
+}
+
+//shadow
+.setting-shadow--soft {
+    box-shadow: $setting-shadow--soft;
+}
+
+.setting-shadow--strong {
+    box-shadow: $setting-shadow--strong;
+}
+
+.setting-shadow--motion {
+    box-shadow: $setting-shadow--soft;
+    -webkit-transition: $setting-transition;
+    /* Safari and Chrome */
+    transition: $setting-transition;
+
+    &:hover {
+        box-shadow: $setting-shadow--strong;
+    }
+}

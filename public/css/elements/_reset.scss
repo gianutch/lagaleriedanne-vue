@@ -1,0 +1,123 @@
+/* RESET ============================================================ */
+* {
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    color: $color-base;
+    background-color: $color-theme;
+}
+
+ol,
+ul {
+    list-style: none outside none;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    margin: auto;
+}
+
+// br {
+// }
+
+hr {
+	display: block;
+    height: $b4;
+    width: $b96;
+    margin: 0 auto $b96 auto;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+    outline: 0;
+    background-color: transparent;
+}
+
+button:active,
+button:focus,
+button:hover {
+    outline: 0;
+    background-color: transparent;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    text-align: left;
+}
+
+pre {
+	padding: 0;
+}
+
+code {
+    font-family: Courier, monospace;
+    font-size: 16px;
+    line-height: 24px;
+    padding: $b24;
+	margin-top: $b24;
+	margin-bottom:$b24;
+    border-radius: $b4;
+    display: block;
+    white-space: nowrap;
+    overflow: auto;
+    background-color: $color-base--background;
+}
+
+
+/* CLASSES ============================================================ */
+
+// descendant selector (space)
+// child selector (>)
+// adjacent sibling selector (+)
+// general sibling selector (~)
+
+// Z-INDEX
+// header 1, alerts 1, tooltip 1, dropdown 2, off canvas 3, modal 4
+
+.smoothscroll {
+    scroll-behavior: smooth;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-none {
+    float: none;
+}
