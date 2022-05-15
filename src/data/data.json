@@ -1,12 +1,12 @@
 {
 	"website": {
 		"image": {
-			"backgroundHero": "./images/img-website-background-hero.jpg",
-			"backgroundGallery": "./images/img-website-background-gallery.jpg",
-			"photoArtistA1": "./images/img-website-artist-a.jpg",
-			"photoArtistA2": "./images/img-website-artist-a@2.jpg 2x",
-			"photoArtistB1": "./images/img-website-artist-b.jpg",
-			"photoArtistB2": "./images/img-website-artist-b@2.jpg 2x"
+			"backgroundHero": "./assets/images/img-website-background-hero.jpg",
+			"backgroundGallery": "./assets/images/img-website-background-gallery.jpg",
+			"photoArtistA1": "./assets/images/img-website-artist-a.jpg",
+			"photoArtistA2": "./assets/images/img-website-artist-a@2.jpg 2x",
+			"photoArtistB1": "./assets/images/img-website-artist-b.jpg",
+			"photoArtistB2": "./assets/images/img-website-artist-b@2.jpg 2x"
 		},
 		"categories": [
 			{
@@ -14,8 +14,8 @@
 				"title": "Peintures",
 				"description": "Huile & Acryliques",
 				"image": {
-					"preview1": "./images/img-home-category-paintings-p.jpg",
-					"preview2": "./images/img-home-category-paintings-p@2.jpg 2x"
+					"preview1": "./assets/images/img-home-category-paintings-p.jpg",
+					"preview2": "./assets/images/img-home-category-paintings-p@2.jpg 2x"
 				}
 			},
 			{
@@ -23,8 +23,8 @@
 				"title": "Aquarelles",
 				"description": "Aquarelles",
 				"image": {
-					"preview1": "./images/img-home-category-watercolors-p.jpg",
-					"preview2": "./images/img-home-category-watercolors-p@2.jpg 2x"
+					"preview1": "./assets/images/img-home-category-watercolors-p.jpg",
+					"preview2": "./assets/images/img-home-category-watercolors-p@2.jpg 2x"
 				}
 			},
 			{
@@ -32,8 +32,8 @@
 				"title": "Dessins",
 				"description": "Fusains & Pastels",
 				"image": {
-					"preview1": "./images/img-home-category-drawings-p.jpg",
-					"preview2": "./images/img-home-category-drawings-p@2.jpg 2x"
+					"preview1": "./assets/images/img-home-category-drawings-p.jpg",
+					"preview2": "./assets/images/img-home-category-drawings-p@2.jpg 2x"
 				}
 			}
 		]
@@ -49,10 +49,10 @@
 			"description": "description",
 			"classDisplay": "",
 			"image": {
-				"preview1": "./images/img-event-2020-bassac-p.jpg",
-				"preview2": "./images/img-event-2020-bassac-p@2.jpg 2x",
-				"path1": "./images/img-event-2020-bassac.jpg",
-				"path2": "./images/img-event-2020-bassac@2.jpg 2x",
+				"preview1": "./assets/images/img-event-2020-bassac-p.jpg",
+				"preview2": "./assets/images/img-event-2020-bassac-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2020-bassac.jpg",
+				"path2": "./assets/images/img-event-2020-bassac@2.jpg 2x",
 				"photoA1": "",
 				"photoA2": "",
 				"photoB1": "",
@@ -71,16 +71,16 @@
 			"description": "description",
 			"classDisplay": "",
 			"image": {
-				"preview1": "./images/img-event-2019-sensualistes-p.jpg",
-				"preview2": "./images/img-event-2019-sensualistes-p@2.jpg 2x",
-				"path1": "./images/img-event-2019-sensualistes.jpg",
-				"path2": "./images/img-event-2019-sensualistes@2.jpg 2x",
-				"photoA1": "./images/img-event-2019-sensualistes-a.jpg",
-				"photoA2": "./images/img-event-2019-sensualistes-a@2.jpg 2x",
-				"photoB1": "./images/img-event-2019-sensualistes-b.jpg",
-				"photoB2": "./images/img-event-2019-sensualistes-b@2.jpg 2x",
-				"photoC1": "./images/img-event-2019-sensualistes-c.jpg",
-				"photoC2": "./images/img-event-2019-sensualistes-c@2.jpg 2x"
+				"preview1": "./assets/images/img-event-2019-sensualistes-p.jpg",
+				"preview2": "./assets/images/img-event-2019-sensualistes-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2019-sensualistes.jpg",
+				"path2": "./assets/images/img-event-2019-sensualistes@2.jpg 2x",
+				"photoA1": "./assets/images/img-event-2019-sensualistes-a.jpg",
+				"photoA2": "./assets/images/img-event-2019-sensualistes-a@2.jpg 2x",
+				"photoB1": "./assets/images/img-event-2019-sensualistes-b.jpg",
+				"photoB2": "./assets/images/img-event-2019-sensualistes-b@2.jpg 2x",
+				"photoC1": "./assets/images/img-event-2019-sensualistes-c.jpg",
+				"photoC2": "./assets/images/img-event-2019-sensualistes-c@2.jpg 2x"
 			}
 		},
 		{
@@ -93,12 +93,12 @@
 			"description": "description",
 			"classDisplay": "",
 			"image": {
-				"preview1": "./images/img-event-2014-gestes-p.jpg",
-				"preview2": "./images/img-event-2014-gestes-p@2.jpg 2x",
-				"path1": "./images/img-event-2014-gestes.jpg",
-				"path2": "./images/img-event-2014-gestes@2.jpg 2x",
-				"photoA1": "./images/img-event-2014-gestes-a.jpg",
-				"photoA2": "./images/img-event-2014-gestes-a@2.jpg 2x",
+				"preview1": "./assets/images/img-event-2014-gestes-p.jpg",
+				"preview2": "./assets/images/img-event-2014-gestes-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2014-gestes.jpg",
+				"path2": "./assets/images/img-event-2014-gestes@2.jpg 2x",
+				"photoA1": "./assets/images/img-event-2014-gestes-a.jpg",
+				"photoA2": "./assets/images/img-event-2014-gestes-a@2.jpg 2x",
 				"photoB1": "",
 				"photoB2": "",
 				"photoC1": "",
@@ -115,16 +115,16 @@
 			"description": "description",
 			"classDisplay": "",
 			"image": {
-				"preview1": "./images/img-event-2012-renard-p.jpg",
-				"preview2": "./images/img-event-2012-renard-p@2.jpg 2x",
-				"path1": "./images/img-event-2012-renard.jpg",
-				"path2": "./images/img-event-2012-renard@2.jpg 2x",
-				"photoA1": "./images/img-event-2012-renard-a.jpg",
-				"photoA2": "./images/img-event-2012-renard-a@2.jpg 2x",
-				"photoB1": "./images/img-event-2012-renard-b.jpg",
-				"photoB2": "./images/img-event-2012-renard-b@2.jpg 2x",
-				"photoC1": "./images/img-event-2012-renard-c.jpg",
-				"photoC2": "./images/img-event-2012-renard-c@2.jpg 2x"
+				"preview1": "./assets/images/img-event-2012-renard-p.jpg",
+				"preview2": "./assets/images/img-event-2012-renard-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2012-renard.jpg",
+				"path2": "./assets/images/img-event-2012-renard@2.jpg 2x",
+				"photoA1": "./assets/images/img-event-2012-renard-a.jpg",
+				"photoA2": "./assets/images/img-event-2012-renard-a@2.jpg 2x",
+				"photoB1": "./assets/images/img-event-2012-renard-b.jpg",
+				"photoB2": "./assets/images/img-event-2012-renard-b@2.jpg 2x",
+				"photoC1": "./assets/images/img-event-2012-renard-c.jpg",
+				"photoC2": "./assets/images/img-event-2012-renard-c@2.jpg 2x"
 			}
 		},
 		{
@@ -137,14 +137,14 @@
 			"description": "description",
 			"classDisplay": "display-desktop",
 			"image": {
-				"preview1": "./images/img-event-2011-moulin-p.jpg",
-				"preview2": "./images/img-event-2011-moulin-p@2.jpg 2x",
-				"path1": "./images/img-event-2011-moulin.jpg",
-				"path2": "./images/img-event-2011-moulin@2.jpg 2x",
-				"photoA1": "./images/img-event-2011-moulin-a.jpg",
-				"photoA2": "./images/img-event-2011-moulin-a@2.jpg 2x",
-				"photoB1": "./images/img-event-2011-moulin-b.jpg",
-				"photoB2": "./images/img-event-2011-moulin-b@2.jpg 2x",
+				"preview1": "./assets/images/img-event-2011-moulin-p.jpg",
+				"preview2": "./assets/images/img-event-2011-moulin-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2011-moulin.jpg",
+				"path2": "./assets/images/img-event-2011-moulin@2.jpg 2x",
+				"photoA1": "./assets/images/img-event-2011-moulin-a.jpg",
+				"photoA2": "./assets/images/img-event-2011-moulin-a@2.jpg 2x",
+				"photoB1": "./assets/images/img-event-2011-moulin-b.jpg",
+				"photoB2": "./assets/images/img-event-2011-moulin-b@2.jpg 2x",
 				"photoC1": "",
 				"photoC2": ""
 			}
@@ -159,12 +159,12 @@
 			"description": "description",
 			"classDisplay": "display-desktop",
 			"image": {
-				"preview1": "./images/img-event-211-coeur-p.jpg",
-				"preview2": "./images/img-event-2011-coeur-p@2.jpg 2x",
-				"path1": "./images/img-event-2011-coeur.jpg",
-				"path2": "./images/img-event-2011-coeur@2.jpg 2x",
-				"photoA1": "./images/img-event-2011-coeur-a.jpg",
-				"photoA2": "./images/img-event-2011-coeur-a@2.jpg 2x",
+				"preview1": "./assets/images/img-event-211-coeur-p.jpg",
+				"preview2": "./assets/images/img-event-2011-coeur-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2011-coeur.jpg",
+				"path2": "./assets/images/img-event-2011-coeur@2.jpg 2x",
+				"photoA1": "./assets/images/img-event-2011-coeur-a.jpg",
+				"photoA2": "./assets/images/img-event-2011-coeur-a@2.jpg 2x",
 				"photoB1": "",
 				"photoB2": "",
 				"photoC1": "",
@@ -181,10 +181,10 @@
 			"description": "description",
 			"classDisplay": "",
 			"image": {
-				"preview1": "./images/img-event-2010-fleur-p.jpg",
-				"preview2": "./images/img-event-2010-fleur-p@2.jpg 2x",
-				"path1": "./images/img-event-2010-fleur.jpg",
-				"path2": "./images/img-event-2010-fleur@2.jpg 2x",
+				"preview1": "./assets/images/img-event-2010-fleur-p.jpg",
+				"preview2": "./assets/images/img-event-2010-fleur-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2010-fleur.jpg",
+				"path2": "./assets/images/img-event-2010-fleur@2.jpg 2x",
 				"photoA1": "",
 				"photoA2": "",
 				"photoB1": "",
@@ -203,12 +203,12 @@
 			"description": "description",
 			"classDisplay": "",
 			"image": {
-				"preview1": "./images/img-event-2009-traces-p.jpg",
-				"preview2": "./images/img-event-2009-traces-p@2.jpg 2x",
-				"path1": "./images/img-event-2009-traces.jpg",
-				"path2": "./images/img-event-2009-traces@2.jpg 2x",
-				"photoA1": "./images/img-event-2009-traces-a.jpg",
-				"photoA2": "./images/img-event-2009-traces-a@2.jpg 2x",
+				"preview1": "./assets/images/img-event-2009-traces-p.jpg",
+				"preview2": "./assets/images/img-event-2009-traces-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2009-traces.jpg",
+				"path2": "./assets/images/img-event-2009-traces@2.jpg 2x",
+				"photoA1": "./assets/images/img-event-2009-traces-a.jpg",
+				"photoA2": "./assets/images/img-event-2009-traces-a@2.jpg 2x",
 				"photoB1": "",
 				"photoB2": "",
 				"photoC1": "",
@@ -226,8 +226,8 @@
 				"size": "54cm x 64cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1999-chignon-oil-54x64.jpg",
-					"path2": "./images/img-art-painting-1999-chignon-oil-54x64@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1999-chignon-oil-54x64.jpg",
+					"path2": "./assets/images/img-art-painting-1999-chignon-oil-54x64@2.jpg 2x"
 				}
 			},
 			{
@@ -238,8 +238,8 @@
 				"size": "65cm x 54cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2000-ruelle-oil-65x54.jpg",
-					"path2": "./images/img-art-painting-2000-ruelle-oil-65x54@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2000-ruelle-oil-65x54.jpg",
+					"path2": "./assets/images/img-art-painting-2000-ruelle-oil-65x54@2.jpg 2x"
 				}
 			},
 			{
@@ -250,8 +250,8 @@
 				"size": "54cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2001-village-oil-54x65.jpg",
-					"path2": "./images/img-art-painting-2001-village-oil-54x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2001-village-oil-54x65.jpg",
+					"path2": "./assets/images/img-art-painting-2001-village-oil-54x65@2.jpg 2x"
 				}
 			},
 			{
@@ -262,8 +262,8 @@
 				"size": "55cm x 46cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1998-matin-acrylic-55x46.jpg",
-					"path2": "./images/img-art-painting-1998-matin-acrylic-55x46@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1998-matin-acrylic-55x46.jpg",
+					"path2": "./assets/images/img-art-painting-1998-matin-acrylic-55x46@2.jpg 2x"
 				}
 			},
 			{
@@ -274,8 +274,8 @@
 				"size": "24cm x 33cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2016-oil-campagne-24x35.jpg",
-					"path2": "./images/img-art-painting-2016-oil-campagne-24x33@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2016-oil-campagne-24x35.jpg",
+					"path2": "./assets/images/img-art-painting-2016-oil-campagne-24x33@2.jpg 2x"
 				}
 			},
 			{
@@ -286,8 +286,8 @@
 				"size": "54cm x 73cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2015-oil-kimono-54x73.jpg",
-					"path2": "./images/img-art-painting-2015-oil-kimono-54x73@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2015-oil-kimono-54x73.jpg",
+					"path2": "./assets/images/img-art-painting-2015-oil-kimono-54x73@2.jpg 2x"
 				}
 			},
 			{
@@ -298,8 +298,8 @@
 				"size": "38cm x 46cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2014-oil-barcelona-38x46.jpg",
-					"path2": "./images/img-art-painting-2014-oil-barcelona-38x46@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2014-oil-barcelona-38x46.jpg",
+					"path2": "./assets/images/img-art-painting-2014-oil-barcelona-38x46@2.jpg 2x"
 				}
 			},
 			{
@@ -310,8 +310,8 @@
 				"size": "46cm x 55cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2009-pot-acrylic-46x55.jpg",
-					"path2": "./images/img-art-painting-2009-pot-acrylic-46x55@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2009-pot-acrylic-46x55.jpg",
+					"path2": "./assets/images/img-art-painting-2009-pot-acrylic-46x55@2.jpg 2x"
 				}
 			},
 			{
@@ -322,8 +322,8 @@
 				"size": "65cm x 54cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2001-saltimbanque-acrylic-65x54.jpg",
-					"path2": "./images/img-art-painting-2001-saltimbanque-acrylic-65x54@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2001-saltimbanque-acrylic-65x54.jpg",
+					"path2": "./assets/images/img-art-painting-2001-saltimbanque-acrylic-65x54@2.jpg 2x"
 				}
 			},
 			{
@@ -334,8 +334,8 @@
 				"size": "50cm x 60cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2016-oil-carmen-50x60.jpg",
-					"path2": "./images/img-art-painting-2016-oil-carmen-50x60@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2016-oil-carmen-50x60.jpg",
+					"path2": "./assets/images/img-art-painting-2016-oil-carmen-50x60@2.jpg 2x"
 				}
 			},
 			{
@@ -346,8 +346,8 @@
 				"size": "50cm x 61cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2010-improvisation-acrylic-50x61.jpg",
-					"path2": "./images/img-art-painting-2010-improvisation-acrylic-50x61@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2010-improvisation-acrylic-50x61.jpg",
+					"path2": "./assets/images/img-art-painting-2010-improvisation-acrylic-50x61@2.jpg 2x"
 				}
 			},
 			{
@@ -358,8 +358,8 @@
 				"size": "54cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2012-oil-iglesia-54x65.jpg",
-					"path2": "./images/img-art-painting-2012-oil-iglesia-54x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2012-oil-iglesia-54x65.jpg",
+					"path2": "./assets/images/img-art-painting-2012-oil-iglesia-54x65@2.jpg 2x"
 				}
 			},
 			{
@@ -370,8 +370,8 @@
 				"size": "38cm x 46cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1992-chardin-oil-38x46.jpg",
-					"path2": "./images/img-art-painting-1992-chardin-oil-38x46@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1992-chardin-oil-38x46.jpg",
+					"path2": "./assets/images/img-art-painting-1992-chardin-oil-38x46@2.jpg 2x"
 				}
 			},
 			{
@@ -382,8 +382,8 @@
 				"size": "38cm x 55cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1992-manet-oil-38x55.jpg",
-					"path2": "./images/img-art-painting-1992-manet-oil-38x55@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1992-manet-oil-38x55.jpg",
+					"path2": "./assets/images/img-art-painting-1992-manet-oil-38x55@2.jpg 2x"
 				}
 			},
 			{
@@ -394,8 +394,8 @@
 				"size": "40cm x 33cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1992-matisse-oil-40x33.jpg",
-					"path2": "./images/img-art-painting-1992-matisse-oil-40x33@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1992-matisse-oil-40x33.jpg",
+					"path2": "./assets/images/img-art-painting-1992-matisse-oil-40x33@2.jpg 2x"
 				}
 			},
 			{
@@ -406,8 +406,8 @@
 				"size": "55cm x 46cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1997-veranda-oil-55x46.jpg",
-					"path2": "./images/img-art-painting-1997-veranda-oil-55x46@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1997-veranda-oil-55x46.jpg",
+					"path2": "./assets/images/img-art-painting-1997-veranda-oil-55x46@2.jpg 2x"
 				}
 			},
 			{
@@ -418,8 +418,8 @@
 				"size": "65cm x 54cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1999-aube-oil-65x54.jpg",
-					"path2": "./images/img-art-painting-1999-aube-oil-65x54@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1999-aube-oil-65x54.jpg",
+					"path2": "./assets/images/img-art-painting-1999-aube-oil-65x54@2.jpg 2x"
 				}
 			},
 			{
@@ -430,8 +430,8 @@
 				"size": "64cm x 54cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1999-bain-oil-64x54.jpg",
-					"path2": "./images/img-art-painting-1999-bain-oil-64x54@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1999-bain-oil-64x54.jpg",
+					"path2": "./assets/images/img-art-painting-1999-bain-oil-64x54@2.jpg 2x"
 				}
 			},
 			{
@@ -442,8 +442,8 @@
 				"size": "55cm x 46cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1999-campagnard-oil-55x46.jpg",
-					"path2": "./images/img-art-painting-1999-campagnard-oil-55x46@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1999-campagnard-oil-55x46.jpg",
+					"path2": "./assets/images/img-art-painting-1999-campagnard-oil-55x46@2.jpg 2x"
 				}
 			},
 			{
@@ -454,8 +454,8 @@
 				"size": "65cm x 54cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-1999-nature-acrylic-65x54.jpg",
-					"path2": "./images/img-art-painting-1999-nature-acrylic-65x54@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-1999-nature-acrylic-65x54.jpg",
+					"path2": "./assets/images/img-art-painting-1999-nature-acrylic-65x54@2.jpg 2x"
 				}
 			},
 			{
@@ -466,8 +466,8 @@
 				"size": "46cm x 61cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2000-nature-acrylic-46x61.jpg",
-					"path2": "./images/img-art-painting-2000-nature-acrylic-46x61@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2000-nature-acrylic-46x61.jpg",
+					"path2": "./assets/images/img-art-painting-2000-nature-acrylic-46x61@2.jpg 2x"
 				}
 			},
 			{
@@ -478,8 +478,8 @@
 				"size": "65cm x 54cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2002-totem-oil-65x54.jpg",
-					"path2": "./images/img-art-painting-2002-totem-oil-65x54@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2002-totem-oil-65x54.jpg",
+					"path2": "./assets/images/img-art-painting-2002-totem-oil-65x54@2.jpg 2x"
 				}
 			},
 			{
@@ -490,8 +490,8 @@
 				"size": "55cm x 46cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2002-turquoise-acrylic-55x46.jpg",
-					"path2": "./images/img-art-painting-2002-turquoise-acrylic-55x46@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2002-turquoise-acrylic-55x46.jpg",
+					"path2": "./assets/images/img-art-painting-2002-turquoise-acrylic-55x46@2.jpg 2x"
 				}
 			},
 			{
@@ -502,8 +502,8 @@
 				"size": "61cm x 50cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2002-tenture-acrylic-61x50.jpg",
-					"path2": "./images/img-art-painting-2002-tenture-acrylic-61x50@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2002-tenture-acrylic-61x50.jpg",
+					"path2": "./assets/images/img-art-painting-2002-tenture-acrylic-61x50@2.jpg 2x"
 				}
 			},
 			{
@@ -514,8 +514,8 @@
 				"size": "46cm x 33cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2004-grece-acrylic-46x33.jpg",
-					"path2": "./images/img-art-painting-2004-grece-acrylic-46x33@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2004-grece-acrylic-46x33.jpg",
+					"path2": "./assets/images/img-art-painting-2004-grece-acrylic-46x33@2.jpg 2x"
 				}
 			},
 			{
@@ -526,8 +526,8 @@
 				"size": "55cm x 46cm",
 				"display": false,
 				"image": {
-					"path1": "./images/img-art-painting-2006-nuit-acrylic-55x46.jpg",
-					"path2": "./images/img-art-painting-2006-nuit-acrylic-55x46@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2006-nuit-acrylic-55x46.jpg",
+					"path2": "./assets/images/img-art-painting-2006-nuit-acrylic-55x46@2.jpg 2x"
 				}
 			},
 			{
@@ -538,8 +538,8 @@
 				"size": "41cm x 33cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2010-pochade-acrylic-41x33.jpg",
-					"path2": "./images/img-art-painting-2010-pochade-acrylic-41x33@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2010-pochade-acrylic-41x33.jpg",
+					"path2": "./assets/images/img-art-painting-2010-pochade-acrylic-41x33@2.jpg 2x"
 				}
 			},
 			{
@@ -550,8 +550,8 @@
 				"size": "61cm x 38cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2010-manteau-acrylic-61x38.jpg",
-					"path2": "./images/img-art-painting-2010-manteau-acrylic-61x38@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2010-manteau-acrylic-61x38.jpg",
+					"path2": "./assets/images/img-art-painting-2010-manteau-acrylic-61x38@2.jpg 2x"
 				}
 			},
 			{
@@ -562,8 +562,8 @@
 				"size": "65cm x 50cm",
 				"display": false,
 				"image": {
-					"path1": "./images/img-art-painting-2010-ecrivain-acrylic-65x50.jpg",
-					"path2": "./images/img-art-painting-2010-ecrivain-acrylic-65x50@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2010-ecrivain-acrylic-65x50.jpg",
+					"path2": "./assets/images/img-art-painting-2010-ecrivain-acrylic-65x50@2.jpg 2x"
 				}
 			},
 			{
@@ -574,8 +574,8 @@
 				"size": "54cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2011-oil-soudan-54x65.jpg",
-					"path2": "./images/img-art-painting-2011-oil-soudan-54x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2011-oil-soudan-54x65.jpg",
+					"path2": "./assets/images/img-art-painting-2011-oil-soudan-54x65@2.jpg 2x"
 				}
 			},
 			{
@@ -586,8 +586,8 @@
 				"size": "74cm x 100cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-painting-2011-oil-urbain-74x100.jpg",
-					"path2": "./images/img-art-painting-2011-oil-urbain-74x100@2.jpg 2x"
+					"path1": "./assets/images/img-art-painting-2011-oil-urbain-74x100.jpg",
+					"path2": "./assets/images/img-art-painting-2011-oil-urbain-74x100@2.jpg 2x"
 				}
 			}
 		],
@@ -600,8 +600,8 @@
 				"size": "21cm x 31cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2018-botanicgarden-21x31.jpg",
-					"path2": "./images/img-art-watercolor-2018-botanicgarden-21x31@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2018-botanicgarden-21x31.jpg",
+					"path2": "./assets/images/img-art-watercolor-2018-botanicgarden-21x31@2.jpg 2x"
 				}
 			},
 			{
@@ -612,8 +612,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2000-potier-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2000-potier-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2000-potier-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2000-potier-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -624,8 +624,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2000-potier2-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2000-potier2-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2000-potier2-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2000-potier2-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -636,8 +636,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2007-champeroux-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2007-champeroux-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2007-champeroux-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2007-champeroux-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -648,8 +648,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2007-champeroux2-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2007-champeroux2-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2007-champeroux2-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2007-champeroux2-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -660,8 +660,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2007-champeroux3-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2007-champeroux3-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2007-champeroux3-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2007-champeroux3-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -672,8 +672,8 @@
 				"size": "21cm x 29cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2012-champeroux4-21x29.jpg",
-					"path2": "./images/img-art-watercolor-2012-champeroux4-21x29@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2012-champeroux4-21x29.jpg",
+					"path2": "./assets/images/img-art-watercolor-2012-champeroux4-21x29@2.jpg 2x"
 				}
 			},
 			{
@@ -684,8 +684,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2009-lac-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2009-lac-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2009-lac-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2009-lac-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -696,8 +696,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2009-lac2-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2009-lac2-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2009-lac2-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2009-lac2-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -708,8 +708,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2009-montchavin-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2009-montchavin-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2009-montchavin-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2009-montchavin-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -720,8 +720,8 @@
 				"size": "20cm x 26cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2012-catskills-20x26.jpg",
-					"path2": "./images/img-art-watercolor-2012-catskills-20x26@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2012-catskills-20x26.jpg",
+					"path2": "./assets/images/img-art-watercolor-2012-catskills-20x26@2.jpg 2x"
 				}
 			},
 			{
@@ -732,8 +732,8 @@
 				"size": "20cm x 20cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2019-guitare-20x20.jpg",
-					"path2": "./images/img-art-watercolor-2019-guitare-20x20@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2019-guitare-20x20.jpg",
+					"path2": "./assets/images/img-art-watercolor-2019-guitare-20x20@2.jpg 2x"
 				}
 			},
 			{
@@ -744,8 +744,8 @@
 				"size": "20cm x 20cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2020-dansa-20x20.jpg",
-					"path2": "./images/img-art-watercolor-2020-dansa-20x20@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2020-dansa-20x20.jpg",
+					"path2": "./assets/images/img-art-watercolor-2020-dansa-20x20@2.jpg 2x"
 				}
 			},
 			{
@@ -756,8 +756,8 @@
 				"size": "20cm x 20cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2020-ciudad-20x20.jpg",
-					"path2": "./images/img-art-watercolor-2020-ciudad-20x20@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2020-ciudad-20x20.jpg",
+					"path2": "./assets/images/img-art-watercolor-2020-ciudad-20x20@2.jpg 2x"
 				}
 			},
 			{
@@ -768,8 +768,8 @@
 				"size": "20cm x 25cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2020-lacfremont-20x25.jpg",
-					"path2": "./images/img-art-watercolor-2020-lacfremont-20x25@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2020-lacfremont-20x25.jpg",
+					"path2": "./assets/images/img-art-watercolor-2020-lacfremont-20x25@2.jpg 2x"
 				}
 			},
 			{
@@ -780,8 +780,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2020-nature3-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2020-nature3-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2020-nature3-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2020-nature3-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -792,8 +792,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2020-nature4-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2020-nature4-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2020-nature4-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2020-nature4-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -804,8 +804,8 @@
 				"size": "18cm x 24cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-1992-atlantique-18x24.jpg",
-					"path2": "./images/img-art-watercolor-1992-atlantique-18x24@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-1992-atlantique-18x24.jpg",
+					"path2": "./assets/images/img-art-watercolor-1992-atlantique-18x24@2.jpg 2x"
 				}
 			},
 			{
@@ -816,8 +816,8 @@
 				"size": "29cm x 21cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2000-nature1-29x21.jpg",
-					"path2": "./images/img-art-watercolor-2000-nature1-29x21@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2000-nature1-29x21.jpg",
+					"path2": "./assets/images/img-art-watercolor-2000-nature1-29x21@2.jpg 2x"
 				}
 			},
 			{
@@ -828,8 +828,8 @@
 				"size": "29cm x 21cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2000-nature2-29x21.jpg",
-					"path2": "./images/img-art-watercolor-2000-nature2-29x21@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2000-nature2-29x21.jpg",
+					"path2": "./assets/images/img-art-watercolor-2000-nature2-29x21@2.jpg 2x"
 				}
 			},
 			{
@@ -840,8 +840,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2005-souvala-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2005-souvala-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2005-souvala-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2005-souvala-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -852,8 +852,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2005-souvala2-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2005-souvala2-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2005-souvala2-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2005-souvala2-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -864,8 +864,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2005-marathonas-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2005-marathonas-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2005-marathonas-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2005-marathonas-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -876,8 +876,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2005-marathonas2-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2005-marathonas2-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2005-marathonas2-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2005-marathonas2-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -888,8 +888,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2005-eglise-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2005-eglise-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2005-eglise-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2005-eglise-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -900,8 +900,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2005-abstrait-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2005-abstrait-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2005-abstrait-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2005-abstrait-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -912,8 +912,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2010-belvedere-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2010-belvedere-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2010-belvedere-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2010-belvedere-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -924,8 +924,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2010-monde-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2010-monde-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2010-monde-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2010-monde-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -936,8 +936,8 @@
 				"size": "24cm x 30cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2010-monde2-24x30.jpg",
-					"path2": "./images/img-art-watercolor-2010-monde2-24x30@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2010-monde2-24x30.jpg",
+					"path2": "./assets/images/img-art-watercolor-2010-monde2-24x30@2.jpg 2x"
 				}
 			},
 			{
@@ -948,8 +948,8 @@
 				"size": "21cm x 29cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2011-rapolano-21x29.jpg",
-					"path2": "./images/img-art-watercolor-2011-rapolano-21x29@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2011-rapolano-21x29.jpg",
+					"path2": "./assets/images/img-art-watercolor-2011-rapolano-21x29@2.jpg 2x"
 				}
 			},
 			{
@@ -960,8 +960,8 @@
 				"size": "21cm x 29cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-watercolor-2011-rapolano2-21x29.jpg",
-					"path2": "./images/img-art-watercolor-2011-rapolano2-21x29@2.jpg 2x"
+					"path1": "./assets/images/img-art-watercolor-2011-rapolano2-21x29.jpg",
+					"path2": "./assets/images/img-art-watercolor-2011-rapolano2-21x29@2.jpg 2x"
 				}
 			}
 		],
@@ -974,8 +974,8 @@
 				"size": "40cm x 29cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-1998-depart-fusain-40x29.jpg",
-					"path2": "./images/img-art-drawing-1998-depart-fusain-40x29@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-1998-depart-fusain-40x29.jpg",
+					"path2": "./assets/images/img-art-drawing-1998-depart-fusain-40x29@2.jpg 2x"
 				}
 			},
 			{
@@ -986,8 +986,8 @@
 				"size": "40cm x 50cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-1998-minorca-fusain-40x50.jpg",
-					"path2": "./images/img-art-drawing-1998-minorca-fusain-40x50@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-1998-minorca-fusain-40x50.jpg",
+					"path2": "./assets/images/img-art-drawing-1998-minorca-fusain-40x50@2.jpg 2x"
 				}
 			},
 			{
@@ -999,7 +999,7 @@
 				"classDisplay": "",
 				"image": {
 					"path1": "./assets/img-art-drawing-1998-minorca2-fusain-61x46.jpg",
-					"path2": "./images/img-art-drawing-1998-minorca2-fusain-61x46@2.jpg 2x"
+					"path2": "./assets/images/img-art-drawing-1998-minorca2-fusain-61x46@2.jpg 2x"
 				}
 			},
 			{
@@ -1010,8 +1010,8 @@
 				"size": "50cm x 40cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-1999-sandrine-fusain-50x40.jpg",
-					"path2": "./images/img-art-drawing-1999-sandrine-fusain-50x40@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-1999-sandrine-fusain-50x40.jpg",
+					"path2": "./assets/images/img-art-drawing-1999-sandrine-fusain-50x40@2.jpg 2x"
 				}
 			},
 			{
@@ -1022,8 +1022,8 @@
 				"size": "55cm x 38cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2000-nu-fusain-55x38.jpg",
-					"path2": "./images/img-art-drawing-2000-nu-fusain-55x38@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2000-nu-fusain-55x38.jpg",
+					"path2": "./assets/images/img-art-drawing-2000-nu-fusain-55x38@2.jpg 2x"
 				}
 			},
 			{
@@ -1034,8 +1034,8 @@
 				"size": "35cm x 27cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-1999-florence-ink-35x27.jpg",
-					"path2": "./images/img-art-drawing-1999-florence-ink-35x27@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-1999-florence-ink-35x27.jpg",
+					"path2": "./assets/images/img-art-drawing-1999-florence-ink-35x27@2.jpg 2x"
 				}
 			},
 			{
@@ -1046,8 +1046,8 @@
 				"size": "55cm x 38cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-1999-lit-fusain-55x38.jpg",
-					"path2": "./images/img-art-drawing-1999-lit-fusain-55x38@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-1999-lit-fusain-55x38.jpg",
+					"path2": "./assets/images/img-art-drawing-1999-lit-fusain-55x38@2.jpg 2x"
 				}
 			},
 			{
@@ -1058,8 +1058,8 @@
 				"size": "24cm x 32cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-1999-ink-minorca-24x32.jpg",
-					"path2": "./images/img-art-drawing-1999-ink-minorca-24x32@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-1999-ink-minorca-24x32.jpg",
+					"path2": "./assets/images/img-art-drawing-1999-ink-minorca-24x32@2.jpg 2x"
 				}
 			},
 			{
@@ -1070,8 +1070,8 @@
 				"size": "50cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2010-fusain-paysan-50x65.jpg",
-					"path2": "./images/img-art-drawing-2010-fusain-paysan-50x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2010-fusain-paysan-50x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2010-fusain-paysan-50x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1082,8 +1082,8 @@
 				"size": "50cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2010-fusain-paysan2-50x65.jpg",
-					"path2": "./images/img-art-drawing-2010-fusain-paysan2-50x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2010-fusain-paysan2-50x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2010-fusain-paysan2-50x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1094,8 +1094,8 @@
 				"size": "50cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2013-inkpastel-portrait-50x65.jpg",
-					"path2": "./images/img-art-drawing-2013-inkpastel-portrait-50x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2013-inkpastel-portrait-50x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2013-inkpastel-portrait-50x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1106,8 +1106,8 @@
 				"size": "50cm x 60cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2016-inkpastel-camargue-50x60.jpg",
-					"path2": "./images/img-art-drawing-2016-inkpastel-camargue-50x60@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2016-inkpastel-camargue-50x60.jpg",
+					"path2": "./assets/images/img-art-drawing-2016-inkpastel-camargue-50x60@2.jpg 2x"
 				}
 			},
 			{
@@ -1118,8 +1118,8 @@
 				"size": "50cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2017-inkpastel-ebauches-50x65.jpg",
-					"path2": "./images/img-art-drawing-2017-inkpastel-ebauches-50x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2017-inkpastel-ebauches-50x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2017-inkpastel-ebauches-50x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1130,8 +1130,8 @@
 				"size": "50cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2013-inkgouache-foule-50x65.jpg",
-					"path2": "./images/img-art-drawing-2013-inkgouache-foule-50x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2013-inkgouache-foule-50x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2013-inkgouache-foule-50x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1142,8 +1142,8 @@
 				"size": "48cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2012-ink-croquis-48x65.jpg",
-					"path2": "./images/img-art-drawing-2012-ink-croquis-48x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2012-ink-croquis-48x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2012-ink-croquis-48x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1154,8 +1154,8 @@
 				"size": "50cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2000-brunet-pastels-50x65.jpg",
-					"path2": "./images/img-art-drawing-2000-brunet-pastels-50x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2000-brunet-pastels-50x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2000-brunet-pastels-50x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1166,8 +1166,8 @@
 				"size": "28cm x 39cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2000-mangues-pastels-28x39.jpg",
-					"path2": "./images/img-art-drawing-2000-mangues-pastels-28x39@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2000-mangues-pastels-28x39.jpg",
+					"path2": "./assets/images/img-art-drawing-2000-mangues-pastels-28x39@2.jpg 2x"
 				}
 			},
 			{
@@ -1178,8 +1178,8 @@
 				"size": "50cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2002-jeux-pastels-50x65.jpg",
-					"path2": "./images/img-art-drawing-2002-jeux-pastels-50x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2002-jeux-pastels-50x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2002-jeux-pastels-50x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1190,8 +1190,8 @@
 				"size": "50cm x 65cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2006-cartographie-pastels-50x65.jpg",
-					"path2": "./images/img-art-drawing-2006-cartographie-pastels-50x65@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2006-cartographie-pastels-50x65.jpg",
+					"path2": "./assets/images/img-art-drawing-2006-cartographie-pastels-50x65@2.jpg 2x"
 				}
 			},
 			{
@@ -1202,8 +1202,8 @@
 				"size": "42cm x 58cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2006-mouvements-pastels-42x58.jpg",
-					"path2": "./images/img-art-drawing-2006-mouvements-pastels-42x58@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2006-mouvements-pastels-42x58.jpg",
+					"path2": "./assets/images/img-art-drawing-2006-mouvements-pastels-42x58@2.jpg 2x"
 				}
 			},
 			{
@@ -1214,8 +1214,8 @@
 				"size": "30cm x 44cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2006-voile-collage-30x44.jpg",
-					"path2": "./images/img-art-drawing-2006-voile-collage-30x44@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2006-voile-collage-30x44.jpg",
+					"path2": "./assets/images/img-art-drawing-2006-voile-collage-30x44@2.jpg 2x"
 				}
 			},
 			{
@@ -1226,8 +1226,8 @@
 				"size": "20cm x 20cm",
 				"classDisplay": "",
 				"image": {
-					"path1": "./images/img-art-drawing-2007-monde-collage-20x20.jpg",
-					"path2": "./images/img-art-drawing-2007-monde-collage-20x20@2.jpg 2x"
+					"path1": "./assets/images/img-art-drawing-2007-monde-collage-20x20.jpg",
+					"path2": "./assets/images/img-art-drawing-2007-monde-collage-20x20@2.jpg 2x"
 				}
 			}
 		]
