@@ -15,8 +15,8 @@
 		<div
 			class="gallery-art align-center"
 			v-for="drawing in data.gallery.drawings"
-			v-bind:key="drawing"
-			v-bind:id="drawing.name"
+			v-bind:key="drawing.id"
+			v-bind:id="drawing.id"
 			v-bind:class="drawing.classDisplay"
 		>
 			<img

@@ -34,7 +34,7 @@
 					v-bind:key="category"
 				>
 					<router-link
-						v-bind:to="'/' + category.name"
+						v-bind:to="'/' + category.id"
 						class="home-card setting-shadow--motion background-theme fluid column"
 					>
 						<img
@@ -55,9 +55,12 @@
 
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">ÉVÉNEMENTS</h5>
-				<span v-for="event in data.events" v-bind:key="event">
+				<span
+					v-for="event in data.events.slice(0, 8)"
+					v-bind:key="event.id"
+				>
 					<router-link
-						v-bind:to="'/events#' + event.name"
+						v-bind:to="'/events#' + event.id"
 						class="home-card setting-shadow--motion one-half-tablet one-fourth-laptop one-sixth-desktop column"
 						v-bind:class="event.classDisplay"
 					>

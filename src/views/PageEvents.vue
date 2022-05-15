@@ -21,9 +21,9 @@
 				<div
 					class="events-event align-center"
 					v-for="event in data.events"
-					v-bind:key="event"
+					v-bind:key="event.id"
 				>
-					<span v-bind:id="event.name"></span>
+					<span v-bind:id="event.id"></span>
 					<br />
 					<br />
 					<h3 class="align-center">{{ event.title }}</h3>

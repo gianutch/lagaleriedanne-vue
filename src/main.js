@@ -15,7 +15,6 @@ import PageArtist from "./views/PageArtist.vue";
 
 const router = createRouter({
 	history: createWebHistory(),
-	linkAciveClass: "active", //set the native vue-router class '.router-link-active' to just '.active'
 	routes: [
 		{
 			path: "/",
@@ -82,6 +81,16 @@ const router = createRouter({
 			redirect: { name: "home" },
 		},
 	],
+	linkAciveClass: "active", //set the native vue-router class '.router-link-active' to just '.active'
+	scrollBehavior(to, from, savedPosition) {
+		console.log(to, from, savedPosition);
+		// if saved position exist, go back where you were
+		if (savedPosition) {
+			return savedPosition;
+		}
+		// else scroll to top
+		return { left: 0, top: 0 };
+	},
 });
 
 const app = createApp(App);

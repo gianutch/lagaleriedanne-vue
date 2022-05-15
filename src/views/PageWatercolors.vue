@@ -15,8 +15,8 @@
 		<div
 			class="gallery-art align-center"
 			v-for="watercolor in data.gallery.watercolors"
-			v-bind:key="watercolor"
-			v-bind:id="watercolor.name"
+			v-bind:key="watercolor.id"
+			v-bind:id="watercolor.id"
 			v-bind:class="watercolor.classDisplay"
 		>
 			<img
