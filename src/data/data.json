@@ -1,40 +1,40 @@
 {
 	"website": {
-		"imgHomeHero": "./images/img-home-hero.jpg",
-		"imgHeadshot": {
-			"path1": "./images/img-home-head.jpg",
-			"path2": "./images/img-home-head@2.jpg 2x"
-		},
-		"imgGallery": "./images/img-gallery-background.jpg",
-		"imgEventsHero": "./images/img-home-hero.jpg",
-		"imgArtistHero": "./images/img-home-hero.jpg",
-		"artist": {
-			"photoA1": "./images/img-artist-a.jpg",
-			"photoA2": "./images/img-artist-a@2.jpg 2x",
-			"photoB1": "./images/img-artist-b.jpg",
-			"photoB2": "./images/img-artist-b@2.jpg 2x"
+		"image": {
+			"backgroundHero": "./images/img-website-background-hero.jpg",
+			"backgroundGallery": "./images/img-website-background-gallery.jpg",
+			"photoArtistA1": "./images/img-website-artist-a.jpg",
+			"photoArtistA2": "./images/img-website-artist-a@2.jpg 2x",
+			"photoArtistB1": "./images/img-website-artist-b.jpg",
+			"photoArtistB2": "./images/img-website-artist-b@2.jpg 2x"
 		},
 		"categories": [
 			{
 				"id": "paintings",
 				"title": "Peintures",
 				"description": "Huile & Acryliques",
-				"preview1": "./images/img-home-category-paintings-p.jpg",
-				"preview2": "./images/img-home-category-paintings-p@2.jpg 2x"
+				"image": {
+					"preview1": "./images/img-home-category-paintings-p.jpg",
+					"preview2": "./images/img-home-category-paintings-p@2.jpg 2x"
+				}
 			},
 			{
 				"id": "watercolors",
 				"title": "Aquarelles",
 				"description": "Aquarelles",
-				"preview1": "./images/img-home-category-watercolors-p.jpg",
-				"preview2": "./images/img-home-category-watercolors-p@2.jpg 2x"
+				"image": {
+					"preview1": "./images/img-home-category-watercolors-p.jpg",
+					"preview2": "./images/img-home-category-watercolors-p@2.jpg 2x"
+				}
 			},
 			{
 				"id": "drawings",
 				"title": "Dessins",
 				"description": "Fusains & Pastels",
-				"preview1": "./images/img-home-category-drawings-p.jpg",
-				"preview2": "./images/img-home-category-drawings-p@2.jpg 2x"
+				"image": {
+					"preview1": "./images/img-home-category-drawings-p.jpg",
+					"preview2": "./images/img-home-category-drawings-p@2.jpg 2x"
+				}
 			}
 		]
 	},
@@ -44,160 +44,176 @@
 			"type": "Exposition à Bassac",
 			"title": "Abbaye de Bassac",
 			"address": "50 Route de Condé, 16120 Bassac, France",
-			"addressUrl": "https://goo.gl/maps/xemg2SDzrK9vu38KA",
+			"url": "https://goo.gl/maps/xemg2SDzrK9vu38KA",
 			"date": "10 au 19 juill. 2020",
 			"description": "description",
 			"classDisplay": "",
-			"preview1": "./images/img-event-2020-bassac-p.jpg",
-			"preview2": "./images/img-event-2020-bassac-p@2.jpg 2x",
-			"path1": "./images/img-event-2020-bassac.jpg",
-			"path2": "./images/img-event-2020-bassac@2.jpg 2x",
-			"photoA1": "",
-			"photoA2": "",
-			"photoB1": "",
-			"photoB2": "",
-			"photoC1": "",
-			"photoC2": ""
+			"image": {
+				"preview1": "./images/img-event-2020-bassac-p.jpg",
+				"preview2": "./images/img-event-2020-bassac-p@2.jpg 2x",
+				"path1": "./images/img-event-2020-bassac.jpg",
+				"path2": "./images/img-event-2020-bassac@2.jpg 2x",
+				"photoA1": "",
+				"photoA2": "",
+				"photoB1": "",
+				"photoB2": "",
+				"photoC1": "",
+				"photoC2": ""
+			}
 		},
 		{
 			"id": "2019-sensualistes",
 			"type": "Exposition à Paris",
 			"title": "Les peintres sensualistes",
 			"address": "72 avenue du Bac, 94210 La Varenne, France",
-			"addressUrl": "https://goo.gl/maps/2ehWHsCMvkHrdfFB7",
+			"url": "https://goo.gl/maps/2ehWHsCMvkHrdfFB7",
 			"date": "19 au 30 nov. 2019",
 			"description": "description",
 			"classDisplay": "",
-			"preview1": "./images/img-event-2019-sensualistes-p.jpg",
-			"preview2": "./images/img-event-2019-sensualistes-p@2.jpg 2x",
-			"path1": "./images/img-event-2019-sensualistes.jpg",
-			"path2": "./images/img-event-2019-sensualistes@2.jpg 2x",
-			"photoA1": "./images/img-event-2019-sensualistes-a.jpg",
-			"photoA2": "./images/img-event-2019-sensualistes-a@2.jpg 2x",
-			"photoB1": "./images/img-event-2019-sensualistes-b.jpg",
-			"photoB2": "./images/img-event-2019-sensualistes-b@2.jpg 2x",
-			"photoC1": "./images/img-event-2019-sensualistes-c.jpg",
-			"photoC2": "./images/img-event-2019-sensualistes-c@2.jpg 2x"
+			"image": {
+				"preview1": "./images/img-event-2019-sensualistes-p.jpg",
+				"preview2": "./images/img-event-2019-sensualistes-p@2.jpg 2x",
+				"path1": "./images/img-event-2019-sensualistes.jpg",
+				"path2": "./images/img-event-2019-sensualistes@2.jpg 2x",
+				"photoA1": "./images/img-event-2019-sensualistes-a.jpg",
+				"photoA2": "./images/img-event-2019-sensualistes-a@2.jpg 2x",
+				"photoB1": "./images/img-event-2019-sensualistes-b.jpg",
+				"photoB2": "./images/img-event-2019-sensualistes-b@2.jpg 2x",
+				"photoC1": "./images/img-event-2019-sensualistes-c.jpg",
+				"photoC2": "./images/img-event-2019-sensualistes-c@2.jpg 2x"
+			}
 		},
 		{
 			"id": "2014-gestes",
 			"type": "Exposition à Paris",
 			"title": "Les gestes de l'émotion",
 			"address": "123 avenue Daumesnil, 75012 Paris, France",
-			"addressUrl": "https://goo.gl/maps/1tVy2JVRPzioZTk6A",
+			"url": "https://goo.gl/maps/1tVy2JVRPzioZTk6A",
 			"date": "8 au 21 sept. 2014",
 			"description": "description",
 			"classDisplay": "",
-			"preview1": "./images/img-event-2014-gestes-p.jpg",
-			"preview2": "./images/img-event-2014-gestes-p@2.jpg 2x",
-			"path1": "./images/img-event-2014-gestes.jpg",
-			"path2": "./images/img-event-2014-gestes@2.jpg 2x",
-			"photoA1": "./images/img-event-2014-gestes-a.jpg",
-			"photoA2": "./images/img-event-2014-gestes-a@2.jpg 2x",
-			"photoB1": "",
-			"photoB2": "",
-			"photoC1": "",
-			"photoC2": ""
+			"image": {
+				"preview1": "./images/img-event-2014-gestes-p.jpg",
+				"preview2": "./images/img-event-2014-gestes-p@2.jpg 2x",
+				"path1": "./images/img-event-2014-gestes.jpg",
+				"path2": "./images/img-event-2014-gestes@2.jpg 2x",
+				"photoA1": "./images/img-event-2014-gestes-a.jpg",
+				"photoA2": "./images/img-event-2014-gestes-a@2.jpg 2x",
+				"photoB1": "",
+				"photoB2": "",
+				"photoC1": "",
+				"photoC2": ""
+			}
 		},
 		{
 			"id": "2012-renard",
 			"type": "Exposition à Jarnac",
 			"title": "Hôtel Renard",
 			"address": "14 Quai de l'Orangerie, 16200 Jarnac, France",
-			"addressUrl": "https://goo.gl/maps/VCsRAfeMbsCiRkwz8",
+			"url": "https://goo.gl/maps/VCsRAfeMbsCiRkwz8",
 			"date": "17 au 23 déc. 2012",
 			"description": "description",
 			"classDisplay": "",
-			"preview1": "./images/img-event-2012-renard-p.jpg",
-			"preview2": "./images/img-event-2012-renard-p@2.jpg 2x",
-			"path1": "./images/img-event-2012-renard.jpg",
-			"path2": "./images/img-event-2012-renard@2.jpg 2x",
-			"photoA1": "./images/img-event-2012-renard-a.jpg",
-			"photoA2": "./images/img-event-2012-renard-a@2.jpg 2x",
-			"photoB1": "./images/img-event-2012-renard-b.jpg",
-			"photoB2": "./images/img-event-2012-renard-b@2.jpg 2x",
-			"photoC1": "./images/img-event-2012-renard-c.jpg",
-			"photoC2": "./images/img-event-2012-renard-c@2.jpg 2x"
+			"image": {
+				"preview1": "./images/img-event-2012-renard-p.jpg",
+				"preview2": "./images/img-event-2012-renard-p@2.jpg 2x",
+				"path1": "./images/img-event-2012-renard.jpg",
+				"path2": "./images/img-event-2012-renard@2.jpg 2x",
+				"photoA1": "./images/img-event-2012-renard-a.jpg",
+				"photoA2": "./images/img-event-2012-renard-a@2.jpg 2x",
+				"photoB1": "./images/img-event-2012-renard-b.jpg",
+				"photoB2": "./images/img-event-2012-renard-b@2.jpg 2x",
+				"photoC1": "./images/img-event-2012-renard-c.jpg",
+				"photoC2": "./images/img-event-2012-renard-c@2.jpg 2x"
+			}
 		},
 		{
 			"id": "2011-moulin",
 			"type": "Exposition à Cognac",
 			"title": "Moulin de Prézier",
 			"address": "Moulin de Prézier, Cherves-Richemont, France",
-			"addressUrl": "https://goo.gl/maps/n44MZp69R8mqSRXf6",
+			"url": "https://goo.gl/maps/n44MZp69R8mqSRXf6",
 			"date": "10 au 11 déc. 2011",
 			"description": "description",
 			"classDisplay": "display-desktop",
-			"preview1": "./images/img-event-2011-moulin-p.jpg",
-			"preview2": "./images/img-event-2011-moulin-p@2.jpg 2x",
-			"path1": "./images/img-event-2011-moulin.jpg",
-			"path2": "./images/img-event-2011-moulin@2.jpg 2x",
-			"photoA1": "./images/img-event-2011-moulin-a.jpg",
-			"photoA2": "./images/img-event-2011-moulin-a@2.jpg 2x",
-			"photoB1": "./images/img-event-2011-moulin-b.jpg",
-			"photoB2": "./images/img-event-2011-moulin-b@2.jpg 2x",
-			"photoC1": "",
-			"photoC2": ""
+			"image": {
+				"preview1": "./images/img-event-2011-moulin-p.jpg",
+				"preview2": "./images/img-event-2011-moulin-p@2.jpg 2x",
+				"path1": "./images/img-event-2011-moulin.jpg",
+				"path2": "./images/img-event-2011-moulin@2.jpg 2x",
+				"photoA1": "./images/img-event-2011-moulin-a.jpg",
+				"photoA2": "./images/img-event-2011-moulin-a@2.jpg 2x",
+				"photoB1": "./images/img-event-2011-moulin-b.jpg",
+				"photoB2": "./images/img-event-2011-moulin-b@2.jpg 2x",
+				"photoC1": "",
+				"photoC2": ""
+			}
 		},
 		{
 			"id": "2011-coeur",
 			"type": "Exposition à Paris",
 			"title": "Le coeur à corps",
 			"address": "110 rue des amandiers, 75020 Paris, France",
-			"addressUrl": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
+			"url": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
 			"date": "17 oct. au 05 nov. 2011",
 			"description": "description",
 			"classDisplay": "display-desktop",
-			"preview1": "./images/img-event-211-coeur-p.jpg",
-			"preview2": "./images/img-event-2011-coeur-p@2.jpg 2x",
-			"path1": "./images/img-event-2011-coeur.jpg",
-			"path2": "./images/img-event-2011-coeur@2.jpg 2x",
-			"photoA1": "./images/img-event-2011-coeur-a.jpg",
-			"photoA2": "./images/img-event-2011-coeur-a@2.jpg 2x",
-			"photoB1": "",
-			"photoB2": "",
-			"photoC1": "",
-			"photoC2": ""
+			"image": {
+				"preview1": "./images/img-event-211-coeur-p.jpg",
+				"preview2": "./images/img-event-2011-coeur-p@2.jpg 2x",
+				"path1": "./images/img-event-2011-coeur.jpg",
+				"path2": "./images/img-event-2011-coeur@2.jpg 2x",
+				"photoA1": "./images/img-event-2011-coeur-a.jpg",
+				"photoA2": "./images/img-event-2011-coeur-a@2.jpg 2x",
+				"photoB1": "",
+				"photoB2": "",
+				"photoC1": "",
+				"photoC2": ""
+			}
 		},
 		{
 			"id": "2010-fleur",
 			"type": "Exposition à Paris",
 			"title": "À fleur de peau",
 			"address": "110 rue des amandiers, 75020 Paris, France",
-			"addressUrl": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
+			"url": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
 			"date": "1 au 23 déc. 2010",
 			"description": "description",
 			"classDisplay": "",
-			"preview1": "./images/img-event-2010-fleur-p.jpg",
-			"preview2": "./images/img-event-2010-fleur-p@2.jpg 2x",
-			"path1": "./images/img-event-2010-fleur.jpg",
-			"path2": "./images/img-event-2010-fleur@2.jpg 2x",
-			"photoA1": "",
-			"photoA2": "",
-			"photoB1": "",
-			"photoB2": "",
-			"photoC1": "",
-			"photoC2": ""
+			"image": {
+				"preview1": "./images/img-event-2010-fleur-p.jpg",
+				"preview2": "./images/img-event-2010-fleur-p@2.jpg 2x",
+				"path1": "./images/img-event-2010-fleur.jpg",
+				"path2": "./images/img-event-2010-fleur@2.jpg 2x",
+				"photoA1": "",
+				"photoA2": "",
+				"photoB1": "",
+				"photoB2": "",
+				"photoC1": "",
+				"photoC2": ""
+			}
 		},
 		{
 			"id": "2009-traces",
 			"type": "Exposition à Paris",
 			"title": "Traces du sensible",
 			"address": "110 rue des amandiers, 75020 Paris, France",
-			"addressUrl": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
+			"url": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
 			"date": "6 au 29 oct. 2009",
 			"description": "description",
 			"classDisplay": "",
-			"preview1": "./images/img-event-2009-traces-p.jpg",
-			"preview2": "./images/img-event-2009-traces-p@2.jpg 2x",
-			"path1": "./images/img-event-2009-traces.jpg",
-			"path2": "./images/img-event-2009-traces@2.jpg 2x",
-			"photoA1": "./images/img-event-2009-traces-a.jpg",
-			"photoA2": "./images/img-event-2009-traces-a@2.jpg 2x",
-			"photoB1": "",
-			"photoB2": "",
-			"photoC1": "",
-			"photoC2": ""
+			"image": {
+				"preview1": "./images/img-event-2009-traces-p.jpg",
+				"preview2": "./images/img-event-2009-traces-p@2.jpg 2x",
+				"path1": "./images/img-event-2009-traces.jpg",
+				"path2": "./images/img-event-2009-traces@2.jpg 2x",
+				"photoA1": "./images/img-event-2009-traces-a.jpg",
+				"photoA2": "./images/img-event-2009-traces-a@2.jpg 2x",
+				"photoB1": "",
+				"photoB2": "",
+				"photoC1": "",
+				"photoC2": ""
+			}
 		}
 	],
 	"gallery": {

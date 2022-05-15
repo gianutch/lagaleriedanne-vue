@@ -5,7 +5,7 @@
 			id="events-hero"
 			class="align-center"
 			v-bind:style="{
-				backgroundImage: 'url(' + data.website.imgEventsHero + ')',
+				backgroundImage: 'url(' + data.website.image.backgroundHero + ')',
 			}"
 		>
 			<h1
@@ -31,7 +31,7 @@
 					<h5 class="align-center">
 						<a
 							class="link link-primary"
-							v-bind:href="event.addressUrl"
+							v-bind:href="event.url"
 							target="_blank"
 							>{{ event.address }}</a
 						>
@@ -40,26 +40,26 @@
 					<img
 						class="image-responsive setting-shadow--soft"
 						loading="lazy"
-						v-bind:src="event.path1"
-						v-bind:srcset="event.path2"
+						v-bind:src="event.image.path1"
+						v-bind:srcset="event.image.path2"
 					/>
 					<img
 						class="image-responsive setting-shadow--soft"
 						loading="lazy"
-						v-bind:src="event.photoA1"
-						v-bind:srcset="event.photoA2"
+						v-bind:src="event.image.photoA1"
+						v-bind:srcset="event.image.photoA2"
 					/>
 					<img
 						class="image-responsive setting-shadow--soft"
 						loading="lazy"
-						v-bind:src="event.photoB1"
-						v-bind:srcset="event.photoB2"
+						v-bind:src="event.image.photoB1"
+						v-bind:srcset="event.image.photoB2"
 					/>
 					<img
 						class="image-responsive setting-shadow--soft"
 						loading="lazy"
-						v-bind:src="event.photoC1"
-						v-bind:srcset="event.photoC2"
+						v-bind:src="event.image.photoC1"
+						v-bind:srcset="event.image.photoC2"
 					/>
 					<hr class="background-base--background" />
 				</div>

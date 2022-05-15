@@ -2,13 +2,15 @@
 	<div
 		id="watercolors"
 		class="gallery"
-		v-bind:style="{ backgroundImage: 'url(' + data.website.imgGallery + ')' }"
+		v-bind:style="{
+			backgroundImage: 'url(' + data.website.image.backgroundGallery + ')',
+		}"
 	>
 		<!-- preload -->
 		<img
 			class="display-none"
 			loading="eager"
-			v-bind:src="data.website.imgGallery"
+			v-bind:src="data.website.image.backgroundGallery"
 		/>
 
 		<!-- art -->

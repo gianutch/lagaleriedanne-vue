@@ -4,12 +4,12 @@
 		<img
 			class="display-none"
 			loading="eager"
-			v-bind:src="data.website.imgHomeHero"
+			v-bind:src="data.website.image.backgroundHero"
 		/>
 		<img
 			class="display-none"
 			loading="eager"
-			v-bind:src="data.website.imgGallery"
+			v-bind:src="data.website.image.backgroundGallery"
 		/>
 
 		<!-- hero -->
@@ -17,7 +17,7 @@
 			id="home-hero"
 			class="align-center"
 			v-bind:style="{
-				backgroundImage: 'url(' + data.website.imgHomeHero + ')',
+				backgroundImage: 'url(' + data.website.image.backgroundHero + ')',
 			}"
 		>
 			<icon-logo
@@ -40,8 +40,8 @@
 						<img
 							class="image-responsive"
 							loading="eager"
-							v-bind:src="category.preview1"
-							v-bind:srcset="category.preview2"
+							v-bind:src="category.image.preview1"
+							v-bind:srcset="category.image.preview2"
 							width="500"
 							height="333"
 						/>
@@ -56,7 +56,7 @@
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">ÉVÉNEMENTS</h5>
 				<span
-					v-for="event in data.events.slice(0, 8)"
+					v-for="event in data.events.slice(0, 6)"
 					v-bind:key="event.id"
 				>
 					<router-link
@@ -67,8 +67,8 @@
 						<img
 							class="image-responsive"
 							loading="eager"
-							v-bind:src="event.preview1"
-							v-bind:srcset="event.preview2"
+							v-bind:src="event.image.preview1"
+							v-bind:srcset="event.image.preview2"
 							width="400"
 							height="400"
 						/>
@@ -90,8 +90,8 @@
 							<img
 								class="image-responsive"
 								loading="lazy"
-								v-bind:src="data.website.artist.photoA1"
-								v-bind:srcset="data.website.artist.photoA2"
+								v-bind:src="data.website.image.photoArtistA1"
+								v-bind:srcset="data.website.image.photoArtistA2"
 						/></router-link>
 					</div>
 					<div class="one-half-tablet two-third-laptop column">

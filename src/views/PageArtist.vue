@@ -5,7 +5,7 @@
 			id="artist-hero"
 			class="align-center"
 			v-bind:style="{
-				backgroundImage: 'url(' + data.website.imgArtistHero + ')',
+				backgroundImage: 'url(' + data.website.image.backgroundHero + ')',
 			}"
 		>
 			<h1
@@ -20,8 +20,8 @@
 			<img
 				class="image-responsive"
 				loading="lazy"
-				v-bind:src="data.website.artist.photoA1"
-				v-bind:srcset="data.website.artist.photoA2"
+				v-bind:src="data.website.image.photoArtistA1"
+				v-bind:srcset="data.website.image.photoArtistA2"
 			/>
 			<br />
 			<p class="text-justify">
@@ -61,8 +61,8 @@
 			<img
 				class="image-responsive setting-shadow--motion"
 				loading="lazy"
-				v-bind:src="data.website.artist.photoB1"
-				v-bind:srcset="data.website.artist.photoB2"
+				v-bind:src="data.website.image.photoArtistB1"
+				v-bind:srcset="data.website.image.photoArtistB2"
 			/>
 			<br />
 			<br />
