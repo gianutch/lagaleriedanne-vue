@@ -24,7 +24,7 @@
 			display: block;
 		}
 
-		.gallery-art-note {
+		.gallery-art-plaque {
 			display: inline-block;
 			background-color: $color-theme;
 			padding: 12px 12px 16px;
@@ -78,7 +78,7 @@
 	//special
 	@media (max-height: 500px) {
 		.gallery-art {
-			.gallery-art-note,
+			.gallery-art-plaque,
 			.gallery-buttons {
 				display: none;
 			}
@@ -86,6 +86,7 @@
 	}
 	//special
 	@media (min-width: 500px) and (min-height: 500px) {
+		.gallery-arrowleft,
 		.gallery-arrowright {
 			display: inline-block;
 		}

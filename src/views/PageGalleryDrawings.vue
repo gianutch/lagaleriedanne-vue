@@ -1,6 +1,6 @@
 <template>
 	<div
-		id="paintings"
+		id="drawings"
 		class="gallery"
 		v-bind:style="{
 			backgroundImage: 'url(' + data.website.image.backgroundGallery + ')',
@@ -16,26 +16,27 @@
 		<!-- art -->
 		<div
 			class="gallery-art align-center"
-			v-for="painting in data.gallery.paintings"
-			v-bind:key="painting.id"
-			v-bind:id="painting.id"
-			v-bind:class="painting.classDisplay"
+			v-for="drawing in data.gallery.drawings"
+			v-bind:key="drawing.id"
+			v-bind:id="drawing.id"
+			v-bind:class="drawing.classDisplay"
 		>
 			<img
 				class="setting-shadow--motion"
 				loading="lazy"
-				v-bind:src="painting.image.path1"
-				v-bind:srcset="painting.image.path2"
+				v-bind:src="drawing.image.path1"
+				v-bind:srcset="drawing.image.path2"
 			/>
-			<div class="gallery-art-note setting-shadow--motion">
-				<h5 class="align-center">{{ painting.title }}</h5>
+			<div class="gallery-art-plaque setting-shadow--motion">
+				<h5 class="align-center">{{ drawing.title }}</h5>
 				<h6 class="align-center">
-					{{ painting.type }} - {{ painting.size }}
+					{{ drawing.type }} - {{ drawing.size }}
 				</h6>
 			</div>
 		</div>
 		<!-- /art -->
 
+		<!-- nav & buttons -->
 		<div class="gallery-nav align-center">
 			<layout-nav-gallery></layout-nav-gallery>
 		</div>
@@ -43,7 +44,7 @@
 			class="button button-white--ghost button-special gallery-arrowleft"
 			v-on:click="smoothscrollLeft"
 		>
-			<icon-arrowright class="icon"></icon-arrowright>
+			<icon-arrowleft class="icon"></icon-arrowleft>
 		</button>
 		<button
 			class="button button-white--ghost button-special gallery-arrowright"
@@ -51,12 +52,14 @@
 		>
 			<icon-arrowright class="icon"></icon-arrowright>
 		</button>
+		<!-- /nav & buttons -->
 	</div>
 </template>
 
 <script>
 	import Json from "../data/data.json";
 	import LayoutNavGallery from "./LayoutNavGallery.vue";
+	import IconArrowleft from "../icons/IconArrowleft.vue";
 	import IconArrowright from "../icons/IconArrowright.vue";
 
 	export default {
@@ -67,14 +70,15 @@
 		},
 		components: {
 			LayoutNavGallery,
+			IconArrowleft,
 			IconArrowright,
 		},
 		methods: {
 			smoothscrollRight() {
-				document.getElementById("paintings").scrollBy(200, 0);
+				document.getElementById("drawings").scrollBy(200, 0);
 			},
 			smoothscrollLeft() {
-				document.getElementById("paintings").scrollBy(-200, 0);
+				document.getElementById("drawings").scrollBy(-200, 0);
 			},
 		},
 	};

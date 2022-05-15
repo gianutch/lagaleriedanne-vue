@@ -7,9 +7,9 @@ import LayoutHeader from "./views/LayoutHeader.vue";
 import LayoutFooter from "./views/LayoutFooter.vue";
 import LayoutContact from "./views/LayoutContact.vue";
 import PageHome from "./views/PageHome.vue";
-import PagePaintings from "./views/PagePaintings.vue";
-import PageWatercolors from "./views/PageWatercolors.vue";
-import PageDrawings from "./views/PageDrawings.vue";
+import PageGalleryPaintings from "./views/PageGalleryPaintings.vue";
+import PageGalleryWatercolors from "./views/PageGalleryWatercolors.vue";
+import PageGalleryDrawings from "./views/PageGalleryDrawings.vue";
 import PageEvents from "./views/PageEvents.vue";
 import PageArtist from "./views/PageArtist.vue";
 
@@ -31,7 +31,7 @@ const router = createRouter({
 			path: "/paintings",
 			name: "paintings",
 			components: {
-				default: PagePaintings,
+				default: PageGalleryPaintings,
 				offcanvas: LayoutOffcanvas,
 				header: LayoutHeader,
 			},
@@ -40,7 +40,7 @@ const router = createRouter({
 			path: "/watercolors",
 			name: "watercolors",
 			components: {
-				default: PageWatercolors,
+				default: PageGalleryWatercolors,
 				offcanvas: LayoutOffcanvas,
 				header: LayoutHeader,
 			},
@@ -49,7 +49,7 @@ const router = createRouter({
 			path: "/drawings",
 			name: "drawings",
 			components: {
-				default: PageDrawings,
+				default: PageGalleryDrawings,
 				offcanvas: LayoutOffcanvas,
 				header: LayoutHeader,
 			},
