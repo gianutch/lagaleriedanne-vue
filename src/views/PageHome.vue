@@ -56,7 +56,7 @@
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">ÉVÉNEMENTS</h5>
 				<span
-					v-for="event in data.events.slice(0, 6)"
+					v-for="event in data.events.slice(0, 4)"
 					v-bind:key="event.id"
 				>
 					<router-link
