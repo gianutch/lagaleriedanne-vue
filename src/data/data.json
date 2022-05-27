@@ -40,6 +40,42 @@
 	},
 	"events": [
 		{
+			"id": "2022-saintonge",
+			"type": "Exposition à Saint-Savinien",
+			"title": "La Palette de Saintonge",
+			"address": "Abbaye des Augustins, 17 Avenue de la Gare, 17350 Saint-Savinien, France",
+			"url": "https://goo.gl/maps/gcZuHyXJBtn34jhm8",
+			"date": "11 juin 2022",
+			"description": "description",
+			"classDisplay": "",
+			"image": {
+				"preview1": "./assets/images/img-event-2022-saintonge-p.jpg",
+				"preview2": "./assets/images/img-event-2022-saintonge-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2022-saintonge.jpg",
+				"path2": "./assets/images/img-event-2022-saintonge@2.jpg 2x"
+			}
+		},
+		{
+			"id": "2021-saintonge",
+			"type": "Exposition à Saint-Savinien",
+			"title": "La Palette de Saintonge",
+			"address": "Abbaye des Augustins, 17 Avenue de la Gare, 17350 Saint-Savinien, France",
+			"url": "https://goo.gl/maps/gcZuHyXJBtn34jhm8",
+			"date": "10 au 19 juill. 2020",
+			"description": "description",
+			"classDisplay": "",
+			"image": {
+				"preview1": "./assets/images/img-event-2021-saintonge-p.jpg",
+				"preview2": "./assets/images/img-event-2021-saintonge-p@2.jpg 2x",
+				"path1": "./assets/images/img-event-2021-saintonge.jpg",
+				"path2": "./assets/images/img-event-2021-saintonge@2.jpg 2x",
+				"photoA1": "./assets/images/img-event-2021-saintonge-a.jpg",
+				"photoA2": "./assets/images/img-event-2021-saintonge-a@2.jpg 2x",
+				"photoB1": "./assets/images/img-event-2021-saintonge-b.jpg",
+				"photoB2": "./assets/images/img-event-2021-saintonge-b@2.jpg 2x"
+			}
+		},
+		{
 			"id": "2020-bassac",
 			"type": "Exposition à Bassac",
 			"title": "Abbaye de Bassac",
@@ -53,12 +89,8 @@
 				"preview2": "./assets/images/img-event-2020-bassac-p@2.jpg 2x",
 				"path1": "./assets/images/img-event-2020-bassac.jpg",
 				"path2": "./assets/images/img-event-2020-bassac@2.jpg 2x",
-				"photoA1": "",
-				"photoA2": "",
-				"photoB1": "",
-				"photoB2": "",
-				"photoC1": "",
-				"photoC2": ""
+				"photoA1": "./assets/images/img-event-2020-bassac-a.jpg",
+				"photoA2": "./assets/images/img-event-2020-bassac-a@2.jpg 2x"
 			}
 		},
 		{
@@ -98,11 +130,7 @@
 				"path1": "./assets/images/img-event-2014-gestes.jpg",
 				"path2": "./assets/images/img-event-2014-gestes@2.jpg 2x",
 				"photoA1": "./assets/images/img-event-2014-gestes-a.jpg",
-				"photoA2": "./assets/images/img-event-2014-gestes-a@2.jpg 2x",
-				"photoB1": "",
-				"photoB2": "",
-				"photoC1": "",
-				"photoC2": ""
+				"photoA2": "./assets/images/img-event-2014-gestes-a@2.jpg 2x"
 			}
 		},
 		{
@@ -124,7 +152,9 @@
 				"photoB1": "./assets/images/img-event-2012-renard-b.jpg",
 				"photoB2": "./assets/images/img-event-2012-renard-b@2.jpg 2x",
 				"photoC1": "./assets/images/img-event-2012-renard-c.jpg",
-				"photoC2": "./assets/images/img-event-2012-renard-c@2.jpg 2x"
+				"photoC2": "./assets/images/img-event-2012-renard-c@2.jpg 2x",
+				"photoD1": "./assets/images/img-event-2012-renard-d.jpg",
+				"photoD2": "./assets/images/img-event-2012-renard-d@2.jpg 2x"
 			}
 		},
 		{
@@ -144,9 +174,7 @@
 				"photoA1": "./assets/images/img-event-2011-moulin-a.jpg",
 				"photoA2": "./assets/images/img-event-2011-moulin-a@2.jpg 2x",
 				"photoB1": "./assets/images/img-event-2011-moulin-b.jpg",
-				"photoB2": "./assets/images/img-event-2011-moulin-b@2.jpg 2x",
-				"photoC1": "",
-				"photoC2": ""
+				"photoB2": "./assets/images/img-event-2011-moulin-b@2.jpg 2x"
 			}
 		},
 		{
@@ -164,11 +192,7 @@
 				"path1": "./assets/images/img-event-2011-coeur.jpg",
 				"path2": "./assets/images/img-event-2011-coeur@2.jpg 2x",
 				"photoA1": "./assets/images/img-event-2011-coeur-a.jpg",
-				"photoA2": "./assets/images/img-event-2011-coeur-a@2.jpg 2x",
-				"photoB1": "",
-				"photoB2": "",
-				"photoC1": "",
-				"photoC2": ""
+				"photoA2": "./assets/images/img-event-2011-coeur-a@2.jpg 2x"
 			}
 		},
 		{
@@ -185,12 +209,10 @@
 				"preview2": "./assets/images/img-event-2010-fleur-p@2.jpg 2x",
 				"path1": "./assets/images/img-event-2010-fleur.jpg",
 				"path2": "./assets/images/img-event-2010-fleur@2.jpg 2x",
-				"photoA1": "",
-				"photoA2": "",
-				"photoB1": "",
-				"photoB2": "",
-				"photoC1": "",
-				"photoC2": ""
+				"photoA1": "./assets/images/img-event-2010-fleur-a.jpg",
+				"photoA2": "./assets/images/img-event-2010-fleur-a@2.jpg 2x",
+				"photoB1": "./assets/images/img-event-2010-fleur-b.jpg",
+				"photoB2": "./assets/images/img-event-2010-fleur-b@2.jpg 2x"
 			}
 		},
 		{
@@ -208,11 +230,7 @@
 				"path1": "./assets/images/img-event-2009-traces.jpg",
 				"path2": "./assets/images/img-event-2009-traces@2.jpg 2x",
 				"photoA1": "./assets/images/img-event-2009-traces-a.jpg",
-				"photoA2": "./assets/images/img-event-2009-traces-a@2.jpg 2x",
-				"photoB1": "",
-				"photoB2": "",
-				"photoC1": "",
-				"photoC2": ""
+				"photoA2": "./assets/images/img-event-2009-traces-a@2.jpg 2x"
 			}
 		}
 	],

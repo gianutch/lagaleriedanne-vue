@@ -2,10 +2,10 @@ import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 import App from "./App.vue";
-import LayoutOffcanvas from "./views/LayoutOffcanvas.vue";
-import LayoutHeader from "./views/LayoutHeader.vue";
-import LayoutFooter from "./views/LayoutFooter.vue";
-import LayoutContact from "./views/LayoutContact.vue";
+import ModuleOffcanvas from "./views/ModuleOffcanvas.vue";
+import ModuleHeader from "./views/ModuleHeader.vue";
+import ModuleFooter from "./views/ModuleFooter.vue";
+import ModuleContact from "./views/ModuleContact.vue";
 import PageHome from "./views/PageHome.vue";
 import PageGalleryPaintings from "./views/PageGalleryPaintings.vue";
 import PageGalleryWatercolors from "./views/PageGalleryWatercolors.vue";
@@ -21,10 +21,10 @@ const router = createRouter({
 			name: "home",
 			components: {
 				default: PageHome,
-				offcanvas: LayoutOffcanvas,
-				header: LayoutHeader,
-				footer: LayoutFooter,
-				contact: LayoutContact,
+				offcanvas: ModuleOffcanvas,
+				header: ModuleHeader,
+				footer: ModuleFooter,
+				contact: ModuleContact,
 			},
 		},
 		{
@@ -32,8 +32,8 @@ const router = createRouter({
 			name: "paintings",
 			components: {
 				default: PageGalleryPaintings,
-				offcanvas: LayoutOffcanvas,
-				header: LayoutHeader,
+				offcanvas: ModuleOffcanvas,
+				header: ModuleHeader,
 			},
 		},
 		{
@@ -41,8 +41,8 @@ const router = createRouter({
 			name: "watercolors",
 			components: {
 				default: PageGalleryWatercolors,
-				offcanvas: LayoutOffcanvas,
-				header: LayoutHeader,
+				offcanvas: ModuleOffcanvas,
+				header: ModuleHeader,
 			},
 		},
 		{
@@ -50,8 +50,8 @@ const router = createRouter({
 			name: "drawings",
 			components: {
 				default: PageGalleryDrawings,
-				offcanvas: LayoutOffcanvas,
-				header: LayoutHeader,
+				offcanvas: ModuleOffcanvas,
+				header: ModuleHeader,
 			},
 		},
 		{
@@ -59,10 +59,10 @@ const router = createRouter({
 			name: "events",
 			components: {
 				default: PageEvents,
-				offcanvas: LayoutOffcanvas,
-				header: LayoutHeader,
-				footer: LayoutFooter,
-				contact: LayoutContact,
+				offcanvas: ModuleOffcanvas,
+				header: ModuleHeader,
+				footer: ModuleFooter,
+				contact: ModuleContact,
 			},
 		},
 		{
@@ -70,10 +70,10 @@ const router = createRouter({
 			name: "artist",
 			components: {
 				default: PageArtist,
-				offcanvas: LayoutOffcanvas,
-				header: LayoutHeader,
-				footer: LayoutFooter,
-				contact: LayoutContact,
+				offcanvas: ModuleOffcanvas,
+				header: ModuleHeader,
+				footer: ModuleFooter,
+				contact: ModuleContact,
 			},
 		},
 		{

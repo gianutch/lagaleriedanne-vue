@@ -38,7 +38,7 @@
 
 		<!-- nav & buttons -->
 		<div class="gallery-nav align-center">
-			<layout-nav-gallery></layout-nav-gallery>
+			<module-gallery-nav></module-gallery-nav>
 		</div>
 		<button
 			class="button button-white--ghost button-special gallery-arrowleft"
@@ -58,7 +58,7 @@
 
 <script>
 	import Json from "../data/data.json";
-	import LayoutNavGallery from "./LayoutNavGallery.vue";
+	import ModuleGalleryNav from "./ModuleGalleryNav.vue";
 	import IconArrowleft from "../icons/IconArrowleft.vue";
 	import IconArrowright from "../icons/IconArrowright.vue";
 
@@ -69,7 +69,7 @@
 			};
 		},
 		components: {
-			LayoutNavGallery,
+			ModuleGalleryNav,
 			IconArrowleft,
 			IconArrowright,
 		},

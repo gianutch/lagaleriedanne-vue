@@ -12,17 +12,17 @@
 			>&times;</a
 		>
 		<ul class="nav-vertical">
-			<layout-nav-main></layout-nav-main>
+			<module-nav></module-nav>
 		</ul>
 	</div>
 </template>
 
 <script>
-	import LayoutNavMain from "./LayoutNavMain.vue";
+	import ModuleNav from "./ModuleNav.vue";
 
 	export default {
 		components: {
-			LayoutNavMain,
+			ModuleNav,
 		},
 		methods: {
 			offcanvasClose() {

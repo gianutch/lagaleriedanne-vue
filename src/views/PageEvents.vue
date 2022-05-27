@@ -61,6 +61,12 @@
 						v-bind:src="event.image.photoC1"
 						v-bind:srcset="event.image.photoC2"
 					/>
+					<img
+						class="image-responsive setting-shadow--soft"
+						loading="lazy"
+						v-bind:src="event.image.photoD1"
+						v-bind:srcset="event.image.photoD2"
+					/>
 					<hr class="background-base--background" />
 				</div>
 			</div>
