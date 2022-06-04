@@ -55,15 +55,18 @@
 
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">ÉVÉNEMENTS</h5>
-				<span
+				<!-- <span
 					v-for="event in data.events.slice(0, 4)"
 					v-bind:key="event.id"
-				>
+				> -->
+				<!-- slice(0, 4) hard codes the number of events displayed -->
+				<span v-for="event in data.events" v-bind:key="event.id">
 					<router-link
 						v-bind:to="'/events#' + event.id"
 						class="home-card setting-shadow--motion one-half-tablet one-fourth-laptop one-sixth-desktop column"
 						v-bind:class="event.classDisplay"
 					>
+						<!-- classDisplay shows event depending of display size-->
 						<img
 							class="image-responsive"
 							loading="eager"
@@ -75,8 +78,8 @@
 						<div style="min-height: 65px">
 							<p class="link link-base">{{ event.title }}</p>
 						</div>
-						<div style="min-height: 73px">
-							<h5>{{ event.type }} du {{ event.date }}</h5>
+						<div style="min-height: 40px">
+							<h5>{{ event.date }}</h5>
 						</div>
 					</router-link>
 				</span>
@@ -114,7 +117,7 @@
 
 <script>
 	import Json from "../data/data.json";
-	import IconLogo from "../icons/IconLogo.vue";
+	import IconLogo from "./IconLogo.vue";
 
 	export default {
 		data() {

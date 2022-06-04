@@ -27,7 +27,7 @@
 					<br />
 					<br />
 					<h3 class="align-center">{{ event.title }}</h3>
-					<h5 class="align-center">{{ event.type }} - {{ event.date }}</h5>
+					<h5 class="align-center">{{ event.date }}</h5>
 					<h5 class="align-center">
 						<a
 							class="link link-primary"
@@ -38,31 +38,31 @@
 					</h5>
 					<br />
 					<img
-						class="image-responsive setting-shadow--soft"
+						class="image-responsive setting-shadow--motion"
 						loading="lazy"
-						v-bind:src="event.image.path1"
-						v-bind:srcset="event.image.path2"
+						v-bind:src="event.image.img1"
+						v-bind:srcset="event.image.img2"
 					/>
 					<img
-						class="image-responsive setting-shadow--soft"
+						class="image-responsive setting-shadow--motion"
 						loading="lazy"
 						v-bind:src="event.image.photoA1"
 						v-bind:srcset="event.image.photoA2"
 					/>
 					<img
-						class="image-responsive setting-shadow--soft"
+						class="image-responsive setting-shadow--motion"
 						loading="lazy"
 						v-bind:src="event.image.photoB1"
 						v-bind:srcset="event.image.photoB2"
 					/>
 					<img
-						class="image-responsive setting-shadow--soft"
+						class="image-responsive setting-shadow--motion"
 						loading="lazy"
 						v-bind:src="event.image.photoC1"
 						v-bind:srcset="event.image.photoC2"
 					/>
 					<img
-						class="image-responsive setting-shadow--soft"
+						class="image-responsive setting-shadow--motion"
 						loading="lazy"
 						v-bind:src="event.image.photoD1"
 						v-bind:srcset="event.image.photoD2"

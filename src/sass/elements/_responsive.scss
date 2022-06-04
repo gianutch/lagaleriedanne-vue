@@ -1,5 +1,5 @@
 // 0 - 500 - 1000 - 1500
-// mobile - tablet - laptop - desktop
+// phone - tablet - laptop - desktop
 // max width img = 2000*0.9 = 1800px
 // http://getskeleton.com/
 
@@ -86,22 +86,22 @@ p {
 
 /* DISPLAYS ============================================================ */
 .display-block {
-	display: block;
+	display: block !important;
 }
 
 .display-inline {
-	display: inline;
+	display: inline !important;
 }
 
 .display-inline-block {
-	display: inline-block;
+	display: inline-block !important;
 }
 
 .display-none {
-	display: none;
+	display: none !important;
 }
 
-.display-mobile,
+.display-phone,
 .display-tablet,
 .display-laptop,
 .display-desktop {
@@ -119,39 +119,39 @@ p {
 	box-sizing: border-box;
 }
 
-.one-half-mobile.column {
+.one-half-phone.column {
 	width: calc(100% / 2 - 3%); //47%
 }
 
-.one-third-mobile.column {
+.one-third-phone.column {
 	width: calc(100% / 3 - 3%); //30.33%
 }
 
-.two-third-mobile.column {
+.two-third-phone.column {
 	width: calc(100% * 2 / 3 - 3%); //63.67%
 }
 
-.one-fourth-mobile.column {
+.one-fourth-phone.column {
 	width: calc(100% / 4 - 3%); //22%
 }
 
-.three-fourth-mobile.column {
+.three-fourth-phone.column {
 	width: calc(100% * 3 / 4 - 3%); //72%
 }
 
-.one-sixth-mobile.column {
+.one-sixth-phone.column {
 	width: calc(100% / 6 - 3%); //13.66%
 }
 
-.five-sixth-mobile.column {
+.five-sixth-phone.column {
 	width: calc(100% * 5 / 6 - 3%); //80.33%
 }
 
-.one-eighth-mobile.column {
+.one-eighth-phone.column {
 	width: calc(100% / 8 - 3%); //9.5%
 }
 
-.seven-eighth-mobile.column {
+.seven-eighth-phone.column {
 	width: calc(100% * 7 / 8 - 3%); //84.5%
 }
 
@@ -159,7 +159,7 @@ p {
 // phone only
 @media (max-width: 499px) {
 	// display
-	.display-mobile {
+	.display-phone {
 		display: inline-block !important;
 	}
 }
@@ -186,47 +186,47 @@ p {
 		width: calc(100% / 2 - 3%); //47%
 	}
 
-	.one-half-mobile.column,
+	.one-half-phone.column,
 	.one-half-tablet.column {
 		width: calc(100% / 2 - 3%); //47%
 	}
 
-	.one-third-mobile.column,
+	.one-third-phone.column,
 	.one-third-tablet.column {
 		width: calc(100% / 3 - 3%); //30.33%
 	}
 
-	.two-third-mobile.column,
+	.two-third-phone.column,
 	.two-third-tablet.column {
 		width: calc(100% * 2 / 3 - 3%); //63.67%
 	}
 
-	.one-fourth-mobile.column,
+	.one-fourth-phone.column,
 	.one-fourth-tablet.column {
 		width: calc(100% / 4 - 3%); //22%
 	}
 
-	.three-fourth-mobile.column,
+	.three-fourth-phone.column,
 	.three-fourth-tablet.column {
 		width: calc(100% * 3 / 4 - 3%); //72%
 	}
 
-	.one-sixth-mobile.column,
+	.one-sixth-phone.column,
 	.one-sixth-tablet.column {
 		width: calc(100% / 6 - 3%); //13.66%
 	}
 
-	.five-sixth-mobile.column,
+	.five-sixth-phone.column,
 	.five-sixth-tablet.column {
 		width: calc(100% * 5 / 6 - 3%); //80.33%
 	}
 
-	.one-eighth-mobile.column,
+	.one-eighth-phone.column,
 	.one-eighth-tablet.column {
 		width: calc(100% / 8 - 3%); //9.5%
 	}
 
-	.seven-eighth-mobile.column,
+	.seven-eighth-phone.column,
 	.seven-eighth-tablet.column {
 		width: calc(100% * 7 / 8 - 3%); //84.5%
 	}
@@ -254,62 +254,62 @@ p {
 		width: calc(100% / 3 - 3%); //30.33%
 	}
 
-	.one-half-mobile.column,
+	.one-half-phone.column,
 	.one-half-tablet.column,
 	.one-half-laptop.column {
 		width: calc(100% / 2 - 3%); //47%
 	}
 
-	.one-third-mobile.column,
+	.one-third-phone.column,
 	.one-third-tablet.column,
 	.one-third-laptop.column {
 		width: calc(100% / 3 - 3%); //30.33%
 	}
 
-	.two-third-mobile.column,
+	.two-third-phone.column,
 	.two-third-tablet.column,
 	.two-third-laptop.column {
 		width: calc(100% * 2 / 3 - 3%); //63.67%
 	}
 
-	.one-fourth-mobile.column,
+	.one-fourth-phone.column,
 	.one-fourth-tablet.column,
 	.one-fourth-laptop.column {
 		width: calc(100% / 4 - 3%); //22%
 	}
 
-	.three-fourth-mobile.column,
+	.three-fourth-phone.column,
 	.three-fourth-tablet.column,
 	.three-fourth-laptop.column {
 		width: calc(100% * 3 / 4 - 3%); //72%
 	}
 
-	.one-sixth-mobile.column,
+	.one-sixth-phone.column,
 	.one-sixth-tablet.column,
 	.one-sixth-laptop.column {
 		width: calc(100% / 6 - 3%); //13.66%
 	}
 
-	.five-sixth-mobile.column,
+	.five-sixth-phone.column,
 	.five-sixth-tablet.column,
 	.five-sixth-laptop.column {
 		width: calc(100% * 5 / 6 - 3%); //80.33%
 	}
 
-	.one-eighth-mobile.column,
+	.one-eighth-phone.column,
 	.one-eighth-tablet.column,
 	.one-eighth-laptop.column {
 		width: calc(100% / 8 - 3%); //9.5%
 	}
 
-	.seven-eighth-mobile.column,
+	.seven-eighth-phone.column,
 	.seven-eighth-tablet.column,
 	.seven-eighth-laptop.column {
 		width: calc(100% * 7 / 8 - 3%); //84.5%
 	}
 }
 
-// desktop and above
+// desktop
 @media (min-width: 1500px) {
 	// display
 	.display-desktop {
@@ -331,63 +331,63 @@ p {
 		width: calc(100% / 4 - 3%); //22%
 	}
 
-	.one-half-mobile.column,
+	.one-half-phone.column,
 	.one-half-tablet.column,
 	.one-half-laptop.column,
 	.one-half-desktop.column {
 		width: calc(100% / 2 - 3%); //47%
 	}
 
-	.one-third-mobile.column,
+	.one-third-phone.column,
 	.one-third-tablet.column,
 	.one-third-laptop.column,
 	.one-third-desktop.column {
 		width: calc(100% / 3 - 3%); //30.33%
 	}
 
-	.two-third-mobile.column,
+	.two-third-phone.column,
 	.two-third-tablet.column,
 	.two-third-laptop.column,
 	.two-third-desktop.column {
 		width: calc(100% * 2 / 3 - 3%); //63.67%
 	}
 
-	.one-fourth-mobile.column,
+	.one-fourth-phone.column,
 	.one-fourth-tablet.column,
 	.one-fourth-laptop.column,
 	.one-fourth-desktop.column {
 		width: calc(100% / 4 - 3%); //22%
 	}
 
-	.three-fourth-mobile.column,
+	.three-fourth-phone.column,
 	.three-fourth-tablet.column,
 	.three-fourth-laptop.column,
 	.three-fourth-desktop.column {
 		width: calc(100% * 3 / 4 - 3%); //72%
 	}
 
-	.one-sixth-mobile.column,
+	.one-sixth-phone.column,
 	.one-sixth-tablet.column,
 	.one-sixth-laptop.column,
 	.one-sixth-desktop.column {
 		width: calc(100% / 6 - 3%); //13.66%
 	}
 
-	.five-sixth-mobile.column,
+	.five-sixth-phone.column,
 	.five-sixth-tablet.column,
 	.five-sixth-laptop.column,
 	.five-sixth-desktop.column {
 		width: calc(100% * 5 / 6 - 3%); //80.33%
 	}
 
-	.one-eighth-mobile.column,
+	.one-eighth-phone.column,
 	.one-eighth-tablet.column,
 	.one-eighth-laptop.column,
 	.one-eighth-desktop.column {
 		width: calc(100% / 8 - 3%); //9.5%
 	}
 
-	.seven-eighth-mobile.column,
+	.seven-eighth-phone.column,
 	.seven-eighth-tablet.column,
 	.seven-eighth-laptop.column,
 	.seven-eighth-desktop.column {

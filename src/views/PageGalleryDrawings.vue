@@ -21,11 +21,12 @@
 			v-bind:id="drawing.id"
 			v-bind:class="drawing.classDisplay"
 		>
+			<!-- classDisplay used to hide specific art in data -->
 			<img
 				class="setting-shadow--motion"
 				loading="lazy"
-				v-bind:src="drawing.image.path1"
-				v-bind:srcset="drawing.image.path2"
+				v-bind:src="drawing.image.img1"
+				v-bind:srcset="drawing.image.img2"
 			/>
 			<div class="gallery-art-plaque setting-shadow--motion">
 				<h5 class="align-center">{{ drawing.title }}</h5>
@@ -59,8 +60,8 @@
 <script>
 	import Json from "../data/data.json";
 	import ModuleGalleryNav from "./ModuleGalleryNav.vue";
-	import IconArrowleft from "../icons/IconArrowleft.vue";
-	import IconArrowright from "../icons/IconArrowright.vue";
+	import IconArrowleft from "./IconArrowleft.vue";
+	import IconArrowright from "./IconArrowright.vue";
 
 	export default {
 		data() {

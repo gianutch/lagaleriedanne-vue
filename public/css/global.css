@@ -188,6 +188,7 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -328,6 +329,8 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box;
 }
@@ -528,10 +531,6 @@ a.link.link-mini {
 }
 
 /* CLASSES ============================================================ */
-::-moz-selection {
-  color: #ffffff;
-  background: #4EC3E4;
-}
 ::selection {
   color: #ffffff;
   background: #4EC3E4;
@@ -589,6 +588,7 @@ a.link.link-italic {
 
 .setting-shadow--motion {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s ease-in-out;
   /* Safari and Chrome */
   transition: all 0.3s ease-in-out;
 }
@@ -641,20 +641,26 @@ a.link.link-italic {
 @-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
 @keyframes fadeInUp {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
     transform: translateY(20px);
   }
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
     transform: translateY(0);
   }
 }
@@ -670,20 +676,26 @@ a.link.link-italic {
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
   }
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
 @keyframes fadeInDown {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
     transform: translateY(-20px);
   }
   100% {
     opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
     transform: translateY(0);
   }
 }
@@ -767,22 +779,22 @@ p {
 }
 /* DISPLAYS ============================================================ */
 .display-block {
-  display: block;
+  display: block !important;
 }
 
 .display-inline {
-  display: inline;
+  display: inline !important;
 }
 
 .display-inline-block {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .display-none {
-  display: none;
+  display: none !important;
 }
 
-.display-mobile,
+.display-phone,
 .display-tablet,
 .display-laptop,
 .display-desktop {
@@ -800,45 +812,45 @@ p {
   box-sizing: border-box;
 }
 
-.one-half-mobile.column {
+.one-half-phone.column {
   width: 47%;
 }
 
-.one-third-mobile.column {
+.one-third-phone.column {
   width: 30.3333333333%;
 }
 
-.two-third-mobile.column {
+.two-third-phone.column {
   width: 63.6666666667%;
 }
 
-.one-fourth-mobile.column {
+.one-fourth-phone.column {
   width: 22%;
 }
 
-.three-fourth-mobile.column {
+.three-fourth-phone.column {
   width: 72%;
 }
 
-.one-sixth-mobile.column {
+.one-sixth-phone.column {
   width: 13.6666666667%;
 }
 
-.five-sixth-mobile.column {
+.five-sixth-phone.column {
   width: 80.3333333333%;
 }
 
-.one-eighth-mobile.column {
+.one-eighth-phone.column {
   width: 9.5%;
 }
 
-.seven-eighth-mobile.column {
+.seven-eighth-phone.column {
   width: 84.5%;
 }
 
 /* RESPONSIVE ============================================================ */
 @media (max-width: 499px) {
-  .display-mobile {
+  .display-phone {
     display: inline-block !important;
   }
 }
@@ -859,47 +871,47 @@ p {
     width: 47%;
   }
 
-  .one-half-mobile.column,
+  .one-half-phone.column,
 .one-half-tablet.column {
     width: 47%;
   }
 
-  .one-third-mobile.column,
+  .one-third-phone.column,
 .one-third-tablet.column {
     width: 30.3333333333%;
   }
 
-  .two-third-mobile.column,
+  .two-third-phone.column,
 .two-third-tablet.column {
     width: 63.6666666667%;
   }
 
-  .one-fourth-mobile.column,
+  .one-fourth-phone.column,
 .one-fourth-tablet.column {
     width: 22%;
   }
 
-  .three-fourth-mobile.column,
+  .three-fourth-phone.column,
 .three-fourth-tablet.column {
     width: 72%;
   }
 
-  .one-sixth-mobile.column,
+  .one-sixth-phone.column,
 .one-sixth-tablet.column {
     width: 13.6666666667%;
   }
 
-  .five-sixth-mobile.column,
+  .five-sixth-phone.column,
 .five-sixth-tablet.column {
     width: 80.3333333333%;
   }
 
-  .one-eighth-mobile.column,
+  .one-eighth-phone.column,
 .one-eighth-tablet.column {
     width: 9.5%;
   }
 
-  .seven-eighth-mobile.column,
+  .seven-eighth-phone.column,
 .seven-eighth-tablet.column {
     width: 84.5%;
   }
@@ -921,55 +933,55 @@ p {
     width: 30.3333333333%;
   }
 
-  .one-half-mobile.column,
+  .one-half-phone.column,
 .one-half-tablet.column,
 .one-half-laptop.column {
     width: 47%;
   }
 
-  .one-third-mobile.column,
+  .one-third-phone.column,
 .one-third-tablet.column,
 .one-third-laptop.column {
     width: 30.3333333333%;
   }
 
-  .two-third-mobile.column,
+  .two-third-phone.column,
 .two-third-tablet.column,
 .two-third-laptop.column {
     width: 63.6666666667%;
   }
 
-  .one-fourth-mobile.column,
+  .one-fourth-phone.column,
 .one-fourth-tablet.column,
 .one-fourth-laptop.column {
     width: 22%;
   }
 
-  .three-fourth-mobile.column,
+  .three-fourth-phone.column,
 .three-fourth-tablet.column,
 .three-fourth-laptop.column {
     width: 72%;
   }
 
-  .one-sixth-mobile.column,
+  .one-sixth-phone.column,
 .one-sixth-tablet.column,
 .one-sixth-laptop.column {
     width: 13.6666666667%;
   }
 
-  .five-sixth-mobile.column,
+  .five-sixth-phone.column,
 .five-sixth-tablet.column,
 .five-sixth-laptop.column {
     width: 80.3333333333%;
   }
 
-  .one-eighth-mobile.column,
+  .one-eighth-phone.column,
 .one-eighth-tablet.column,
 .one-eighth-laptop.column {
     width: 9.5%;
   }
 
-  .seven-eighth-mobile.column,
+  .seven-eighth-phone.column,
 .seven-eighth-tablet.column,
 .seven-eighth-laptop.column {
     width: 84.5%;
@@ -992,63 +1004,63 @@ p {
     width: 22%;
   }
 
-  .one-half-mobile.column,
+  .one-half-phone.column,
 .one-half-tablet.column,
 .one-half-laptop.column,
 .one-half-desktop.column {
     width: 47%;
   }
 
-  .one-third-mobile.column,
+  .one-third-phone.column,
 .one-third-tablet.column,
 .one-third-laptop.column,
 .one-third-desktop.column {
     width: 30.3333333333%;
   }
 
-  .two-third-mobile.column,
+  .two-third-phone.column,
 .two-third-tablet.column,
 .two-third-laptop.column,
 .two-third-desktop.column {
     width: 63.6666666667%;
   }
 
-  .one-fourth-mobile.column,
+  .one-fourth-phone.column,
 .one-fourth-tablet.column,
 .one-fourth-laptop.column,
 .one-fourth-desktop.column {
     width: 22%;
   }
 
-  .three-fourth-mobile.column,
+  .three-fourth-phone.column,
 .three-fourth-tablet.column,
 .three-fourth-laptop.column,
 .three-fourth-desktop.column {
     width: 72%;
   }
 
-  .one-sixth-mobile.column,
+  .one-sixth-phone.column,
 .one-sixth-tablet.column,
 .one-sixth-laptop.column,
 .one-sixth-desktop.column {
     width: 13.6666666667%;
   }
 
-  .five-sixth-mobile.column,
+  .five-sixth-phone.column,
 .five-sixth-tablet.column,
 .five-sixth-laptop.column,
 .five-sixth-desktop.column {
     width: 80.3333333333%;
   }
 
-  .one-eighth-mobile.column,
+  .one-eighth-phone.column,
 .one-eighth-tablet.column,
 .one-eighth-laptop.column,
 .one-eighth-desktop.column {
     width: 9.5%;
   }
 
-  .seven-eighth-mobile.column,
+  .seven-eighth-phone.column,
 .seven-eighth-tablet.column,
 .seven-eighth-laptop.column,
 .seven-eighth-desktop.column {
@@ -1725,11 +1737,13 @@ footer h6 {
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #DAE1E4;
+  background-color: #dae1e4;
 }
 #home #home-hero .logo {
   display: none;
   margin-top: 64px;
+  fill: #333333;
+  max-height: 64px;
 }
 #home .home-card {
   overflow: hidden;
@@ -1873,7 +1887,7 @@ footer h6 {
   background-attachment: scroll;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #DAE1E4;
+  background-color: #dae1e4;
 }
 #events #events-hero h1 {
   display: inline-block;
@@ -1887,6 +1901,7 @@ footer h6 {
 }
 #events .events-event h5 {
   margin-bottom: 8px;
+  color: rgba(51, 51, 51, 0.64);
 }
 #events .events-event img {
   margin-bottom: 16px;

@@ -7,7 +7,7 @@
 					id="header-logo"
 					class="float-left link link-theme text-secondary"
 					to="/"
-					>Anne's Gallery</router-link
+					>La galerie d'Anne</router-link
 				>
 
 				<!-- menu desktop -->
@@ -18,10 +18,10 @@
 					<module-nav></module-nav>
 				</ul>
 
-				<!-- menu mobile -->
+				<!-- menu phone -->
 				<ul
-					id="header-nav-mobile"
-					class="nav-horizontal nav-small float-right display-mobile display-tablet"
+					id="header-nav-phone"
+					class="nav-horizontal nav-small float-right display-phone display-tablet"
 					v-on:click="offcanvasOpen()"
 				>
 					<li class="link link-theme">
@@ -37,7 +37,7 @@
 <script>
 	import Json from "../data/data.json";
 	import ModuleNav from "./ModuleNav.vue";
-	import IconCaret from "../icons/IconCaret.vue";
+	import IconCaret from "./IconCaret.vue";
 
 	export default {
 		data() {

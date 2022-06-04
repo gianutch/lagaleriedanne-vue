@@ -2,7 +2,7 @@
 	<footer>
 		<div class="container-fluid">
 			<h6 class="align-center">
-				2022 Anne's Gallery - Made with ♥ by
+				2022 La galerie d'Anne - Made with ♥ by
 				<a
 					class="link link-theme"
 					href="https://www.thebowyer.design/"
