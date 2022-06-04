@@ -14,12 +14,12 @@
 @import "components/buttons";
 @import "components/icons";
 @import "components/navigations";
+@import "components/header";
+@import "components/footer";
+@import "components/offcanvas";
 
-//layouts
-@import "layouts/header";
-@import "layouts/footer";
-@import "layouts/offcanvas";
-@import "layouts/contact";
+//modules
+@import "modules/contact";
 
 //pages
 @import "pages/home";
