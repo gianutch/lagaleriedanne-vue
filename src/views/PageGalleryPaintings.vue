@@ -71,14 +71,14 @@
 			smoothscrollRight() {
 				document.getElementById("watercolors").scrollBy({
 					top: 0,
-					left: 500,
+					left: 600,
 					behavior: "smooth",
 				});
 			},
 			smoothscrollLeft() {
 				document.getElementById("watercolors").scrollBy({
 					top: 0,
-					left: -500,
+					left: -600,
 					behavior: "smooth",
 				});
 			},
