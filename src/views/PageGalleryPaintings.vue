@@ -32,7 +32,21 @@
 
 		<!-- nav & buttons -->
 		<div class="gallery-nav align-center">
-			<module-gallery-nav></module-gallery-nav>
+			<router-link
+				to="/paintings"
+				class="button button-small button-base--ghost button-block"
+				>Peintures</router-link
+			>
+			<router-link
+				to="/watercolors"
+				class="button button-small button-base--ghost button-block"
+				>Aquarelles</router-link
+			>
+			<router-link
+				to="/drawings"
+				class="button button-small button-base--ghost button-block"
+				>Dessins</router-link
+			>
 		</div>
 		<button
 			class="button button-white--ghost button-special gallery-arrowleft"
@@ -52,7 +66,6 @@
 
 <script>
 	import Json from "../data/data.json";
-	import ModuleGalleryNav from "./ModuleGalleryNav.vue";
 	import IconArrowleft from "./IconArrowleft.vue";
 	import IconArrowright from "./IconArrowright.vue";
 
@@ -63,7 +76,6 @@
 			};
 		},
 		components: {
-			ModuleGalleryNav,
 			IconArrowleft,
 			IconArrowright,
 		},
