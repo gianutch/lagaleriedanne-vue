@@ -55,11 +55,6 @@
 
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">ÉVÉNEMENTS</h5>
-				<!-- <span
-					v-for="event in data.events.slice(0, 4)"
-					v-bind:key="event.id"
-				> -->
-				<!-- slice(0, 4) hard codes the number of events displayed -->
 				<span v-for="event in data.events" v-bind:key="event.id">
 					<router-link
 						v-bind:to="'/events#' + event.id"
@@ -99,13 +94,10 @@
 					</div>
 					<div class="one-half-tablet two-third-laptop column">
 						<p style="vertical-align: middle">
-							D’origine Charentaise, j’ai toujours été passionnée de
-							peinture et inspirée par l’univers de la puissance
-							émotionnelle des couleurs et de ses contrastes, comme en
-							ont témoigné les peintres impressionnistes et post-
-							impressionnistes...
+							{{ data.website.text.txt1.slice(0, 500) }}...
+							<!-- slice shows the first  x characters -->
 							<router-link to="/artist" class="link link-primary"
-								>Lire la suite</router-link
+								>Lire la suite ></router-link
 							>
 						</p>
 					</div>

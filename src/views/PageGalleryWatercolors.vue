@@ -76,10 +76,18 @@
 		},
 		methods: {
 			smoothscrollRight() {
-				document.getElementById("watercolors").scrollBy(200, 0);
+				document.getElementById("watercolors").scrollBy({
+					top: 0,
+					left: 500,
+					behavior: "smooth",
+				});
 			},
 			smoothscrollLeft() {
-				document.getElementById("watercolors").scrollBy(-200, 0);
+				document.getElementById("watercolors").scrollBy({
+					top: 0,
+					left: -500,
+					behavior: "smooth",
+				});
 			},
 		},
 	};
