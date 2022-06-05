@@ -6,13 +6,6 @@
 			backgroundImage: 'url(' + data.website.image.backgroundGallery + ')',
 		}"
 	>
-		<!-- preload -->
-		<img
-			class="display-none"
-			loading="eager"
-			v-bind:src="data.website.image.backgroundGallery"
-		/>
-
 		<!-- art -->
 		<div
 			class="gallery-art align-center"
@@ -24,7 +17,7 @@
 			<!-- classDisplay used to hide specific art in data -->
 			<img
 				class="setting-shadow--motion"
-				loading="lazy"
+				loading="auto"
 				v-bind:src="drawing.image.img1"
 				v-bind:srcset="drawing.image.img2"
 			/>
@@ -76,10 +69,18 @@
 		},
 		methods: {
 			smoothscrollRight() {
-				document.getElementById("drawings").scrollBy(200, 0);
+				document.getElementById("watercolors").scrollBy({
+					top: 0,
+					left: 500,
+					behavior: "smooth",
+				});
 			},
 			smoothscrollLeft() {
-				document.getElementById("drawings").scrollBy(-200, 0);
+				document.getElementById("watercolors").scrollBy({
+					top: 0,
+					left: -500,
+					behavior: "smooth",
+				});
 			},
 		},
 	};
