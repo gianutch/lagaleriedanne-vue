@@ -35,16 +35,10 @@
 </template>
 
 <script>
-	import Json from "../data/data.json";
 	import ModuleNav from "./ModuleNav.vue";
 	import IconCaret from "./IconCaret.vue";
 
 	export default {
-		data() {
-			return {
-				data: Json,
-			};
-		},
 		components: {
 			ModuleNav,
 			IconCaret,

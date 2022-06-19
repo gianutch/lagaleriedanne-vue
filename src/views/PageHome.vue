@@ -2,7 +2,10 @@
 	<div id="home">
 		<!-- preload -->
 		<link rel="prefetch" v-bind:href="data.website.image.backgroundHero" />
-		<link rel="prefetch" v-bind:href="data.website.image.backgroundGallery" />
+		<link
+			rel="prefetch"
+			v-bind:href="data.website.image.backgroundGalleries"
+		/>
 		<!-- /preload -->
 
 		<!-- hero -->
@@ -22,26 +25,23 @@
 		<div class="section">
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">CATÉGORIES</h5>
-				<span
-					v-for="category in data.website.categories"
-					v-bind:key="category"
-				>
+				<span v-for="gallery in data.galleries" v-bind:key="gallery.id">
 					<router-link
-						v-bind:to="'/' + category.id"
+						v-bind:to="'/galleries/' + gallery.id"
 						class="home-card setting-shadow--motion background-theme fluid column"
 					>
 						<img
 							class="image-responsive"
 							loading="eager"
-							v-bind:src="category.image.preview1"
-							v-bind:srcset="category.image.preview2"
+							v-bind:src="gallery.pvw1"
+							v-bind:srcset="gallery.pvw2"
 							width="500"
 							height="333"
 						/>
 
-						<p class="link link-base">{{ category.title }}</p>
+						<p class="link link-base">{{ gallery.title }}</p>
 
-						<h5>{{ category.description }}</h5>
+						<h5>{{ gallery.description }}</h5>
 					</router-link>
 				</span>
 			</div>
@@ -58,8 +58,8 @@
 						<img
 							class="image-responsive"
 							loading="eager"
-							v-bind:src="event.image.preview1"
-							v-bind:srcset="event.image.preview2"
+							v-bind:src="event.image.pvw1"
+							v-bind:srcset="event.image.pvw2"
 							width="400"
 							height="400"
 						/>
@@ -81,13 +81,13 @@
 							<img
 								class="image-responsive"
 								loading="lazy"
-								v-bind:src="data.website.image.photoArtistA1"
-								v-bind:srcset="data.website.image.photoArtistA2"
+								v-bind:src="data.website.image.artistOutside1"
+								v-bind:srcset="data.website.image.artistOutside2"
 						/></router-link>
 					</div>
 					<div class="one-half-tablet two-third-laptop column">
 						<p style="vertical-align: middle">
-							{{ data.website.text.txt1.slice(0, 500) }}...
+							{{ data.website.text.description1.slice(0, 500) }}...
 							<!-- slice shows the first  x characters -->
 							<router-link to="/artist" class="link link-primary"
 								>Lire la suite ></router-link
@@ -101,15 +101,9 @@
 </template>
 
 <script>
-	import Json from "../data/data.json";
 	import IconLogo from "./IconLogo.vue";
 
 	export default {
-		data() {
-			return {
-				data: Json,
-			};
-		},
 		components: {
 			IconLogo,
 		},

@@ -1792,7 +1792,7 @@ footer h6 {
   }
 }
 
-.gallery {
+.galleries {
   padding-top: 56px;
   height: 100vh;
   background-size: auto 100%;
@@ -1803,43 +1803,43 @@ footer h6 {
   white-space: nowrap;
   /* RESPONSIVE ============================================================ */
 }
-.gallery .hidden {
+.galleries .hidden {
   display: none !important;
 }
-.gallery .gallery-art {
+.galleries .galleries-art {
   display: inline-block;
   width: auto;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 5%;
 }
-.gallery .gallery-art img {
+.galleries .galleries-art img {
   max-height: 50vh;
   width: auto;
   display: block;
 }
-.gallery .gallery-art .gallery-art-plaque {
+.galleries .galleries-art .galleries-art-plaque {
   display: inline-block;
   background-color: #FFFFFF;
   padding: 12px 12px 16px;
   border-radius: 4px;
   margin-top: 32px;
 }
-.gallery .gallery-art .gallery-art-plaque h5 {
+.galleries .galleries-art .galleries-art-plaque h5 {
   font-style: italic;
   margin-bottom: 8px;
 }
-.gallery .gallery-art .gallery-art-plaque h6 {
+.galleries .galleries-art .galleries-art-plaque h6 {
   color: rgba(51, 51, 51, 0.64);
   margin-bottom: 0;
 }
-.gallery .gallery-nav {
+.galleries .galleries-nav {
   display: inline-block;
   width: auto;
   margin-left: 5%;
   margin-right: 10%;
 }
-.gallery .gallery-arrowleft {
+.galleries .galleries-arrowleft {
   display: none;
   position: absolute;
   left: 32px;
@@ -1848,7 +1848,7 @@ footer h6 {
   width: 56px;
   margin-bottom: 0;
 }
-.gallery .gallery-arrowright {
+.galleries .galleries-arrowright {
   display: none;
   position: absolute;
   right: 32px;
@@ -1857,7 +1857,7 @@ footer h6 {
   width: 56px;
   margin-bottom: 0;
 }
-.gallery footer {
+.galleries footer {
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -1865,14 +1865,14 @@ footer h6 {
   margin-bottom: 0px;
 }
 @media (max-height: 500px) {
-  .gallery .gallery-art .gallery-art-plaque,
-.gallery .gallery-art .gallery-buttons {
+  .galleries .galleries-art .galleries-art-plaque,
+.galleries .galleries-art .galleries-buttons {
     display: none;
   }
 }
 @media (min-width: 500px) and (min-height: 500px) {
-  .gallery .gallery-arrowleft,
-.gallery .gallery-arrowright {
+  .galleries .galleries-arrowleft,
+.galleries .galleries-arrowright {
     display: inline-block;
   }
 }

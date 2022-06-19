@@ -73,15 +73,3 @@
 		</div>
 	</div>
 </template>
-
-<script>
-	import Json from "../data/data.json";
-
-	export default {
-		data() {
-			return {
-				data: Json,
-			};
-		},
-	};
-</script>

@@ -2,16 +2,15 @@ import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 import App from "./App.vue";
-import ModuleOffcanvas from "./views/ModuleOffcanvas.vue";
-import ModuleHeader from "./views/ModuleHeader.vue";
-import ModuleFooter from "./views/ModuleFooter.vue";
+import ComponentOffcanvas from "./views/ComponentOffcanvas.vue";
+import ComponentHeader from "./views/ComponentHeader.vue";
+import ComponentFooter from "./views/ComponentFooter.vue";
 import ModuleContact from "./views/ModuleContact.vue";
 import PageHome from "./views/PageHome.vue";
-import PageGalleryPaintings from "./views/PageGalleryPaintings.vue";
-import PageGalleryWatercolors from "./views/PageGalleryWatercolors.vue";
-import PageGalleryDrawings from "./views/PageGalleryDrawings.vue";
+import PageGalleries from "./views/PageGalleries.vue";
 import PageEvents from "./views/PageEvents.vue";
 import PageArtist from "./views/PageArtist.vue";
+import mixinData from "./mixins/mixinData.js";
 
 const router = createRouter({
 	history: createWebHistory(),
@@ -21,37 +20,19 @@ const router = createRouter({
 			name: "home",
 			components: {
 				default: PageHome,
-				offcanvas: ModuleOffcanvas,
-				header: ModuleHeader,
-				footer: ModuleFooter,
+				offcanvas: ComponentOffcanvas,
+				header: ComponentHeader,
+				footer: ComponentFooter,
 				contact: ModuleContact,
 			},
 		},
 		{
-			path: "/paintings",
-			name: "paintings",
+			path: "/galleries/:galleryId",
+			name: "galleries",
 			components: {
-				default: PageGalleryPaintings,
-				offcanvas: ModuleOffcanvas,
-				header: ModuleHeader,
-			},
-		},
-		{
-			path: "/watercolors",
-			name: "watercolors",
-			components: {
-				default: PageGalleryWatercolors,
-				offcanvas: ModuleOffcanvas,
-				header: ModuleHeader,
-			},
-		},
-		{
-			path: "/drawings",
-			name: "drawings",
-			components: {
-				default: PageGalleryDrawings,
-				offcanvas: ModuleOffcanvas,
-				header: ModuleHeader,
+				default: PageGalleries,
+				offcanvas: ComponentOffcanvas,
+				header: ComponentHeader,
 			},
 		},
 		{
@@ -59,9 +40,9 @@ const router = createRouter({
 			name: "events",
 			components: {
 				default: PageEvents,
-				offcanvas: ModuleOffcanvas,
-				header: ModuleHeader,
-				footer: ModuleFooter,
+				offcanvas: ComponentOffcanvas,
+				header: ComponentHeader,
+				footer: ComponentFooter,
 				contact: ModuleContact,
 			},
 		},
@@ -70,9 +51,9 @@ const router = createRouter({
 			name: "artist",
 			components: {
 				default: PageArtist,
-				offcanvas: ModuleOffcanvas,
-				header: ModuleHeader,
-				footer: ModuleFooter,
+				offcanvas: ComponentOffcanvas,
+				header: ComponentHeader,
+				footer: ComponentFooter,
 				contact: ModuleContact,
 			},
 		},
@@ -87,17 +68,21 @@ const router = createRouter({
 		// if saved position exist, go back where you were
 		if (savedPosition) {
 			return savedPosition;
-		}
-		if (to.hash) {
-			return { selector: to.hash };
 		} else {
-			return { x: 0, y: 0 };
+			// start at the top
+			return { left: 0, top: 0 };
 		}
+		// if (to.hash) {
+		// 	return { selector: to.hash };
+		// } else {
+		// 	return { x: 0, y: 0 };
+		// }
 	},
 });
 
 const app = createApp(App);
 
+app.mixin(mixinData);
 app.use(router);
 
 router.isReady().then(() => {

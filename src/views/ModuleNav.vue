@@ -6,7 +6,7 @@
 	</li>
 	<li>
 		<router-link
-			to="/paintings"
+			to="/galleries/paintings"
 			class="link link-theme"
 			activeClass="link-active"
 			>Peintures</router-link
@@ -14,7 +14,7 @@
 	</li>
 	<li>
 		<router-link
-			to="/watercolors"
+			to="/galleries/watercolors"
 			class="link link-theme"
 			activeClass="link-active"
 			>Aquarelles</router-link
@@ -22,7 +22,7 @@
 	</li>
 	<li>
 		<router-link
-			to="/drawings"
+			to="/galleries/drawings"
 			class="link link-theme"
 			activeClass="link-active"
 			>Dessins</router-link

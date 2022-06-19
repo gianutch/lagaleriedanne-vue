@@ -20,40 +20,28 @@
 			<img
 				class="image-responsive"
 				loading="lazy"
-				v-bind:src="data.website.image.photoArtistA1"
-				v-bind:srcset="data.website.image.photoArtistA2"
+				v-bind:src="data.website.image.artistOutside1"
+				v-bind:srcset="data.website.image.artistOutside2"
 			/>
 			<br />
 			<p class="text-justify">
-				{{ data.website.text.txt1 }}
+				{{ data.website.text.description1 }}
 			</p>
 			<br />
 			<img
 				class="image-responsive setting-shadow--motion"
 				loading="lazy"
-				v-bind:src="data.website.image.photoArtistB1"
-				v-bind:srcset="data.website.image.photoArtistB2"
+				v-bind:src="data.website.image.artistAtelier1"
+				v-bind:srcset="data.website.image.artistAtelier2"
 			/>
 			<br />
 			<p class="text-justify">
-				{{ data.website.text.txt2 }}
+				{{ data.website.text.description2 }}
 			</p>
 			<br />
 			<p class="text-justify">
-				{{ data.website.text.txt3 }}
+				{{ data.website.text.description3 }}
 			</p>
 		</div>
 	</div>
 </template>
-
-<script>
-	import Json from "../data/data.json";
-
-	export default {
-		data() {
-			return {
-				data: Json,
-			};
-		},
-	};
-</script>
