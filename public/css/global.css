@@ -4,8 +4,6 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -442,6 +440,29 @@ th {
 }
 
 /* VARIABLES ============================================================ */
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/Roboto-Regular.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/Roboto-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+/* alex-brush-regular - latin */
+@font-face {
+  font-family: "Alex Brush";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/AlexBrush-Regular.ttf") format("truetype");
+}
 /* BASE ============================================================ */
 html,
 body {
@@ -555,7 +576,7 @@ a.link.link-mini {
 
 .text-bold,
 a.link.link-bold {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .text-italic,

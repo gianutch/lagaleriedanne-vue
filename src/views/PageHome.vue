@@ -1,12 +1,14 @@
 <template>
 	<div id="home">
 		<!-- preload -->
-		<link rel="prefetch" v-bind:href="data.website.image.backgroundHero" />
+		<link rel="preload" v-bind:href="data.website.image.backgroundHero" />
+		<!-- /preload -->
+		<!-- prefetch -->
 		<link
 			rel="prefetch"
 			v-bind:href="data.website.image.backgroundGalleries"
 		/>
-		<!-- /preload -->
+		<!-- /prefetch -->
 
 		<!-- hero -->
 		<div
