@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<div class="container-fluid">
+		<div class="container-full">
 			<h6 class="align-center">
 				2022 La galerie d'Anne - Made with ♥ by
 				<a

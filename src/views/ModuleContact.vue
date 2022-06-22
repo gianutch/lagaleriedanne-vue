@@ -1,13 +1,14 @@
 <template>
 	<div class="contact">
-		<div class="container-fluid">
+		<div class="container-full">
 			<h6 class="align-center">
-				Pour toute demande, vous pouvez me contacter par 
+				Pour toute demande, vous pouvez me contacter par
 				<a
 					class="link link-external"
 					href="mailto:anne.bouvyer@gmail.com"
 					target="_blank"
-				>courrier éléctronique</a>.
+					>courrier éléctronique</a
+				>.
 			</h6>
 		</div>
 	</div>

@@ -1,6 +1,6 @@
 <template>
 	<header id="header">
-		<div class="container-fluid">
+		<div class="container-full">
 			<nav role="navigation">
 				<!-- logo -->
 				<router-link
