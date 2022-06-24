@@ -37,36 +37,15 @@
 						>
 					</h5>
 					<br />
-					<img
-						class="image-responsive setting-shadow--motion"
-						loading="lazy"
-						v-bind:src="event.image.img1"
-						v-bind:srcset="event.image.img2"
-					/>
-					<img
-						class="image-responsive setting-shadow--motion"
-						loading="lazy"
-						v-bind:src="event.image.photoA1"
-						v-bind:srcset="event.image.photoA2"
-					/>
-					<img
-						class="image-responsive setting-shadow--motion"
-						loading="lazy"
-						v-bind:src="event.image.photoB1"
-						v-bind:srcset="event.image.photoB2"
-					/>
-					<img
-						class="image-responsive setting-shadow--motion"
-						loading="lazy"
-						v-bind:src="event.image.photoC1"
-						v-bind:srcset="event.image.photoC2"
-					/>
-					<img
-						class="image-responsive setting-shadow--motion"
-						loading="lazy"
-						v-bind:src="event.image.photoD1"
-						v-bind:srcset="event.image.photoD2"
-					/>
+					<span v-for="photo in event.image.photos" v-bind:key="photo.id">
+						<img
+							class="image-responsive setting-shadow--motion"
+							loading="lazy"
+							v-bind:src="photo.img1"
+							v-bind:srcset="photo.img2"
+						/>
+					</span>
+
 					<hr class="background-base--background" />
 				</div>
 			</div>

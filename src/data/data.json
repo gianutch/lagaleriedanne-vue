@@ -23,10 +23,15 @@
 			"url": "https://goo.gl/maps/gcZuHyXJBtn34jhm8",
 			"classDisplay": "display-phone display-tablet display-laptop display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2022-saintonge-p.jpg",
-				"pvw2": "/assets/images/img-event-2022-saintonge-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2022-saintonge.jpg",
-				"img2": "/assets/images/img-event-2022-saintonge@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2022-saintonge-0.jpg",
+				"pvw2": "/assets/images/img-event-2022-saintonge-0@2.jpg 2x",
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2022-saintonge-1.jpg",
+						"img2": "/assets/images/img-event-2022-saintonge-1@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -37,14 +42,26 @@
 			"url": "https://goo.gl/maps/gcZuHyXJBtn34jhm8",
 			"classDisplay": "display-tablet display-laptop display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2021-saintonge-p.jpg",
-				"pvw2": "/assets/images/img-event-2021-saintonge-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2021-saintonge.jpg",
-				"img2": "/assets/images/img-event-2021-saintonge@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2021-saintonge-a.jpg",
-				"photoA2": "/assets/images/img-event-2021-saintonge-a@2.jpg 2x",
-				"photoB1": "/assets/images/img-event-2021-saintonge-b.jpg",
-				"photoB2": "/assets/images/img-event-2021-saintonge-b@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2021-saintonge-0.jpg",
+				"pvw2": "/assets/images/img-event-2021-saintonge-0@2.jpg 2x",
+
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2021-saintonge-1.jpg",
+						"img2": "/assets/images/img-event-2021-saintonge-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2021-saintonge-a.jpg",
+						"img2": "/assets/images/img-event-2021-saintonge-a@2.jpg 2x"
+					},
+					{
+						"id": "b",
+						"img1": "/assets/images/img-event-2021-saintonge-b.jpg",
+						"img2": "/assets/images/img-event-2021-saintonge-b@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -55,12 +72,21 @@
 			"url": "https://goo.gl/maps/xemg2SDzrK9vu38KA",
 			"classDisplay": "display-laptop display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2020-bassac-p.jpg",
-				"pvw2": "/assets/images/img-event-2020-bassac-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2020-bassac.jpg",
-				"img2": "/assets/images/img-event-2020-bassac@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2020-bassac-a.jpg",
-				"photoA2": "/assets/images/img-event-2020-bassac-a@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2020-bassac-0.jpg",
+				"pvw2": "/assets/images/img-event-2020-bassac-0@2.jpg 2x",
+
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2020-bassac-1.jpg",
+						"img2": "/assets/images/img-event-2020-bassac-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2020-bassac-a.jpg",
+						"img2": "/assets/images/img-event-2020-bassac-a@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -71,16 +97,31 @@
 			"url": "https://goo.gl/maps/2ehWHsCMvkHrdfFB7",
 			"classDisplay": "display-laptop display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2019-sensualistes-p.jpg",
-				"pvw2": "/assets/images/img-event-2019-sensualistes-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2019-sensualistes.jpg",
-				"img2": "/assets/images/img-event-2019-sensualistes@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2019-sensualistes-a.jpg",
-				"photoA2": "/assets/images/img-event-2019-sensualistes-a@2.jpg 2x",
-				"photoB1": "/assets/images/img-event-2019-sensualistes-b.jpg",
-				"photoB2": "/assets/images/img-event-2019-sensualistes-b@2.jpg 2x",
-				"photoC1": "/assets/images/img-event-2019-sensualistes-c.jpg",
-				"photoC2": "/assets/images/img-event-2019-sensualistes-c@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2019-sensualistes-0.jpg",
+				"pvw2": "/assets/images/img-event-2019-sensualistes-0@2.jpg 2x",
+
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2019-sensualistes-1.jpg",
+						"img2": "/assets/images/img-event-2019-sensualistes-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2019-sensualistes-a.jpg",
+						"img2": "/assets/images/img-event-2019-sensualistes-a@2.jpg 2x"
+					},
+					{
+						"id": "b",
+						"img1": "/assets/images/img-event-2019-sensualistes-b.jpg",
+						"img2": "/assets/images/img-event-2019-sensualistes-b@2.jpg 2x"
+					},
+					{
+						"id": "c",
+						"img1": "/assets/images/img-event-2019-sensualistes-c.jpg",
+						"img2": "/assets/images/img-event-2019-sensualistes-c@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -91,12 +132,20 @@
 			"url": "https://goo.gl/maps/1tVy2JVRPzioZTk6A",
 			"classDisplay": "display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2014-gestes-p.jpg",
-				"pvw2": "/assets/images/img-event-2014-gestes-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2014-gestes.jpg",
-				"img2": "/assets/images/img-event-2014-gestes@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2014-gestes-a.jpg",
-				"photoA2": "/assets/images/img-event-2014-gestes-a@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2014-gestes-0.jpg",
+				"pvw2": "/assets/images/img-event-2014-gestes-0@2.jpg 2x",
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2014-gestes-1.jpg",
+						"img2": "/assets/images/img-event-2014-gestes-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2014-gestes-a.jpg",
+						"img2": "/assets/images/img-event-2014-gestes-a@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -107,18 +156,35 @@
 			"url": "https://goo.gl/maps/VCsRAfeMbsCiRkwz8",
 			"classDisplay": "display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2012-renard-p.jpg",
-				"pvw2": "/assets/images/img-event-2012-renard-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2012-renard.jpg",
-				"img2": "/assets/images/img-event-2012-renard@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2012-renard-a.jpg",
-				"photoA2": "/assets/images/img-event-2012-renard-a@2.jpg 2x",
-				"photoB1": "/assets/images/img-event-2012-renard-b.jpg",
-				"photoB2": "/assets/images/img-event-2012-renard-b@2.jpg 2x",
-				"photoC1": "/assets/images/img-event-2012-renard-c.jpg",
-				"photoC2": "/assets/images/img-event-2012-renard-c@2.jpg 2x",
-				"photoD1": "/assets/images/img-event-2012-renard-d.jpg",
-				"photoD2": "/assets/images/img-event-2012-renard-d@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2012-renard-0.jpg",
+				"pvw2": "/assets/images/img-event-2012-renard-0@2.jpg 2x",
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2012-renard-1.jpg",
+						"img2": "/assets/images/img-event-2012-renard-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2012-renard-a.jpg",
+						"img2": "/assets/images/img-event-2012-renard-a@2.jpg 2x"
+					},
+					{
+						"id": "b",
+						"img1": "/assets/images/img-event-2012-renard-b.jpg",
+						"img2": "/assets/images/img-event-2012-renard-b@2.jpg 2x"
+					},
+					{
+						"id": "c",
+						"img1": "/assets/images/img-event-2012-renard-c.jpg",
+						"img2": "/assets/images/img-event-2012-renard-c@2.jpg 2x"
+					},
+					{
+						"id": "d",
+						"img1": "/assets/images/img-event-2012-renard-d.jpg",
+						"img2": "/assets/images/img-event-2012-renard-d@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -129,14 +195,25 @@
 			"url": "https://goo.gl/maps/n44MZp69R8mqSRXf6",
 			"classDisplay": "display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2011-moulin-p.jpg",
-				"pvw2": "/assets/images/img-event-2011-moulin-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2011-moulin.jpg",
-				"img2": "/assets/images/img-event-2011-moulin@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2011-moulin-a.jpg",
-				"photoA2": "/assets/images/img-event-2011-moulin-a@2.jpg 2x",
-				"photoB1": "/assets/images/img-event-2011-moulin-b.jpg",
-				"photoB2": "/assets/images/img-event-2011-moulin-b@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2011-moulin-0.jpg",
+				"pvw2": "/assets/images/img-event-2011-moulin-0@2.jpg 2x",
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2011-moulin-1.jpg",
+						"img2": "/assets/images/img-event-2011-moulin-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2011-moulin-a.jpg",
+						"img2": "/assets/images/img-event-2011-moulin-a@2.jpg 2x"
+					},
+					{
+						"id": "b",
+						"img1": "/assets/images/img-event-2011-moulin-b.jpg",
+						"img2": "/assets/images/img-event-2011-moulin-b@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -147,12 +224,20 @@
 			"url": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
 			"classDisplay": "display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-211-coeur-p.jpg",
-				"pvw2": "/assets/images/img-event-2011-coeur-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2011-coeur.jpg",
-				"img2": "/assets/images/img-event-2011-coeur@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2011-coeur-a.jpg",
-				"photoA2": "/assets/images/img-event-2011-coeur-a@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2011-coeur-0.jpg",
+				"pvw2": "/assets/images/img-event-2011-coeur-0@2.jpg 2x",
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2011-coeur-1.jpg",
+						"img2": "/assets/images/img-event-2011-coeur-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2011-coeur-a.jpg",
+						"img2": "/assets/images/img-event-2011-coeur-a@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -163,14 +248,25 @@
 			"url": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
 			"classDisplay": "display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2010-fleur-p.jpg",
-				"pvw2": "/assets/images/img-event-2010-fleur-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2010-fleur.jpg",
-				"img2": "/assets/images/img-event-2010-fleur@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2010-fleur-a.jpg",
-				"photoA2": "/assets/images/img-event-2010-fleur-a@2.jpg 2x",
-				"photoB1": "/assets/images/img-event-2010-fleur-b.jpg",
-				"photoB2": "/assets/images/img-event-2010-fleur-b@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2010-fleur-0.jpg",
+				"pvw2": "/assets/images/img-event-2010-fleur-0@2.jpg 2x",
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2010-fleur-1.jpg",
+						"img2": "/assets/images/img-event-2010-fleur-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2010-fleur-a.jpg",
+						"img2": "/assets/images/img-event-2010-fleur-a@2.jpg 2x"
+					},
+					{
+						"id": "b",
+						"img1": "/assets/images/img-event-2010-fleur-b.jpg",
+						"img2": "/assets/images/img-event-2010-fleur-b@2.jpg 2x"
+					}
+				]
 			}
 		},
 		{
@@ -181,12 +277,20 @@
 			"url": "https://goo.gl/maps/8zd7V6Ea2GJ19pZV9",
 			"classDisplay": "display-desktop",
 			"image": {
-				"pvw1": "/assets/images/img-event-2009-traces-p.jpg",
-				"pvw2": "/assets/images/img-event-2009-traces-p@2.jpg 2x",
-				"img1": "/assets/images/img-event-2009-traces.jpg",
-				"img2": "/assets/images/img-event-2009-traces@2.jpg 2x",
-				"photoA1": "/assets/images/img-event-2009-traces-a.jpg",
-				"photoA2": "/assets/images/img-event-2009-traces-a@2.jpg 2x"
+				"pvw1": "/assets/images/img-event-2009-traces-0.jpg",
+				"pvw2": "/assets/images/img-event-2009-traces-0@2.jpg 2x",
+				"photos": [
+					{
+						"id": "1",
+						"img1": "/assets/images/img-event-2009-traces-1.jpg",
+						"img2": "/assets/images/img-event-2009-traces-1@2.jpg 2x"
+					},
+					{
+						"id": "a",
+						"img1": "/assets/images/img-event-2009-traces-a.jpg",
+						"img2": "/assets/images/img-event-2009-traces-a@2.jpg 2x"
+					}
+				]
 			}
 		}
 	],
