@@ -28,7 +28,24 @@
 		</div>
 		<!-- /art -->
 
-		<!-- nav & buttons -->
+		<!-- arrows -->
+		<button
+			id="galleries-arrowleft"
+			class="button button-white--ghost button-special galleries-arrows"
+			v-on:click="smoothscrollLeft"
+		>
+			<icon-arrowleft class="icon"></icon-arrowleft>
+		</button>
+		<button
+			id="galleries-arrowright"
+			class="button button-white--ghost button-special galleries-arrows"
+			v-on:click="smoothscrollRight"
+		>
+			<icon-arrowright class="icon"></icon-arrowright>
+		</button>
+		<!-- /arrows -->
+
+		<!-- nav -->
 		<div class="galleries-nav align-center">
 			<router-link
 				to="/galleries/paintings"
@@ -46,19 +63,7 @@
 				>Dessins</router-link
 			>
 		</div>
-		<button
-			class="button button-white--ghost button-special galleries-arrowleft"
-			v-on:click="smoothscrollLeft"
-		>
-			<icon-arrowleft class="icon"></icon-arrowleft>
-		</button>
-		<button
-			class="button button-white--ghost button-special galleries-arrowright"
-			v-on:click="smoothscrollRight"
-		>
-			<icon-arrowright class="icon"></icon-arrowright>
-		</button>
-		<!-- /nav & buttons -->
+		<!-- /nav -->
 	</div>
 </template>
 
@@ -76,7 +81,9 @@
 			IconArrowleft,
 			IconArrowright,
 		},
+		// functions
 		methods: {
+			// @created()
 			refreshProject() {
 				// to be able to use "this" page within the loop (bubble)
 				const self = this;
@@ -87,6 +94,19 @@
 					}
 				});
 			},
+			// @created()
+			leftarrowScrollBehavior() {
+				if (window.scrollX > 100) {
+					document
+						.querySelector("#galleries-arrowleft")
+						.classList.add("visibility-visible");
+				} else {
+					document
+						.querySelector("#galleries-arrowleft")
+						.classList.remove("visibility-hidden");
+				}
+			},
+			// on:click
 			smoothscrollRight() {
 				document.getElementById(this.galleryObj.id).scrollBy({
 					top: 0,
@@ -94,6 +114,7 @@
 					behavior: "smooth",
 				});
 			},
+			// on:click
 			smoothscrollLeft() {
 				document.getElementById(this.galleryObj.id).scrollBy({
 					top: 0,
@@ -102,12 +123,17 @@
 				});
 			},
 		},
+		// do this at launch
 		created() {
-			// do this at launch
 			this.refreshProject();
+			window.addEventListener("scroll", this.leftarrowScrollBehavior);
 		},
+		// stop this at launch
+		unmount() {
+			window.removeEventListener("scroll", this.leftarrowScrollBehavior);
+		},
+		// do this if something changes
 		watch: {
-			// do this if something changes
 			// $route: "refreshProject",
 			$route() {
 				this.refreshProject();

@@ -1,12 +1,17 @@
 <template>
 	<div id="home">
 		<!-- preload -->
-		<link rel="preload" v-bind:href="data.website.image.backgroundHero" />
+		<link
+			rel="preload"
+			v-bind:href="data.website.image.backgroundHero"
+			as="image"
+		/>
 		<!-- /preload -->
 		<!-- prefetch -->
 		<link
 			rel="prefetch"
 			v-bind:href="data.website.image.backgroundGalleries"
+			as="image"
 		/>
 		<!-- /prefetch -->
 
@@ -25,6 +30,7 @@
 		<!-- /hero -->
 
 		<div class="section">
+			<!-- categories -->
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">CATÉGORIES</h5>
 				<span v-for="gallery in data.galleries" v-bind:key="gallery.id">
@@ -47,7 +53,9 @@
 					</router-link>
 				</span>
 			</div>
+			<!-- /categories -->
 
+			<!-- evenements -->
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">ÉVÉNEMENTS</h5>
 				<span v-for="event in data.events" v-bind:key="event.id">
@@ -74,7 +82,9 @@
 					</router-link>
 				</span>
 			</div>
+			<!-- /evenements -->
 
+			<!-- l artiste -->
 			<div class="container subsection">
 				<h5 class="text-bold" style="margin-left: 1.5%">L'ARTISTE</h5>
 				<div class="row">
@@ -98,6 +108,7 @@
 					</div>
 				</div>
 			</div>
+			<!-- /l artiste -->
 		</div>
 	</div>
 </template>

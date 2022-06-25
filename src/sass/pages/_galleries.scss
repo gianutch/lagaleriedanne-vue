@@ -48,23 +48,19 @@
 		margin-left: 5%;
 		margin-right: 15%;
 	}
-	.galleries-arrowleft {
+	.galleries-arrows {
 		display: none;
 		position: absolute;
-		left: $b32;
 		top: 45%;
 		bottom: 0;
 		width: $b56;
 		margin-bottom: 0;
 	}
-	.galleries-arrowright {
-		display: none;
-		position: absolute;
+	#galleries-arrowleft {
+		left: $b32;
+	}
+	#galleries-arrowright {
 		right: $b32;
-		top: 45%;
-		bottom: 0;
-		width: $b56;
-		margin-bottom: 0;
 	}
 	footer {
 		position: fixed;
@@ -86,8 +82,7 @@
 	}
 	//special
 	@media (min-width: 500px) and (min-height: 500px) {
-		.galleries-arrowleft,
-		.galleries-arrowright {
+		.galleries-arrows {
 			display: inline-block;
 		}
 	}

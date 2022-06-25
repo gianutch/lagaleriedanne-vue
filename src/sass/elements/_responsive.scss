@@ -18,6 +18,12 @@ p {
 	max-width: 100%;
 	height: auto;
 }
+.visibility-visible {
+	visibility: visible !important;
+}
+.visibility-hidden {
+	visibility: hidden !important;
+}
 
 /* DISPLAY ============================================================ */
 .display-block {
