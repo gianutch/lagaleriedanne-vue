@@ -21,7 +21,7 @@
 				class="image-responsive"
 				loading="lazy"
 				v-bind:src="data.website.image.artistOutside1"
-				v-bind:srcset="data.website.image.artistOutside2"
+				v-bind:srcset="data.website.image.artistOutside2 + ' 2x'"
 			/>
 			<br />
 			<p class="text-justify">
@@ -32,7 +32,7 @@
 				class="image-responsive setting-shadow--motion"
 				loading="lazy"
 				v-bind:src="data.website.image.artistAtelier1"
-				v-bind:srcset="data.website.image.artistAtelier2"
+				v-bind:srcset="data.website.image.artistAtelier2 + ' 2x'"
 			/>
 			<br />
 			<p class="text-justify">

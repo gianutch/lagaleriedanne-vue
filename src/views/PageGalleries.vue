@@ -19,7 +19,7 @@
 				class="setting-shadow--motion"
 				loading="auto"
 				v-bind:src="art.img1"
-				v-bind:srcset="art.img2"
+				v-bind:srcset="art.img2 + ' 2x'"
 			/>
 			<div class="galleries-art-plaque setting-shadow--motion">
 				<h5 class="align-center">{{ art.title }}</h5>

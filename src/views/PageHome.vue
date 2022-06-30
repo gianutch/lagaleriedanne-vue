@@ -42,7 +42,7 @@
 							class="image-responsive"
 							loading="eager"
 							v-bind:src="gallery.pvw1"
-							v-bind:srcset="gallery.pvw2"
+							v-bind:srcset="gallery.pvw2 + ' 2x'"
 							width="500"
 							height="333"
 						/>
@@ -69,7 +69,7 @@
 							class="image-responsive"
 							loading="eager"
 							v-bind:src="event.image.pvw1"
-							v-bind:srcset="event.image.pvw2"
+							v-bind:srcset="event.image.pvw2 + ' 2x'"
 							width="400"
 							height="400"
 						/>
@@ -94,7 +94,9 @@
 								class="image-responsive"
 								loading="lazy"
 								v-bind:src="data.website.image.artistOutside1"
-								v-bind:srcset="data.website.image.artistOutside2"
+								v-bind:srcset="
+									data.website.image.artistOutside2 + ' 2x'
+								"
 						/></router-link>
 					</div>
 					<div class="one-half-tablet two-third-laptop column">

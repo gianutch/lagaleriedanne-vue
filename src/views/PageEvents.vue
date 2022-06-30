@@ -42,7 +42,7 @@
 							class="image-responsive setting-shadow--motion"
 							loading="lazy"
 							v-bind:src="photo.img1"
-							v-bind:srcset="photo.img2"
+							v-bind:srcset="photo.img2 + ' 2x'"
 						/>
 					</span>
 
