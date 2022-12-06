@@ -2,12 +2,12 @@
 	<footer>
 		<div class="container-full">
 			<h6 class="align-center">
-				2022 La galerie d'Anne - Made with ♥ by
+				2023 La galerie d'Anne - Made with ♥ by
 				<a
 					class="link link-theme"
-					href="https://www.thebowyer.design/"
+					href="https://www.lebowyer.com/"
 					target="_blank"
-					>The Bowyer</a
+					>Le Bowyer</a
 				>
 			</h6>
 		</div>
