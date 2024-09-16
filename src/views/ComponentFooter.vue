@@ -5,7 +5,7 @@
 				2023 La galerie d'Anne - Made with ♥ by
 				<a
 					class="link link-theme"
-					href="https://www.lebowyer.com/"
+					href="https://design.lebowyer.com/"
 					target="_blank"
 					>Le Bowyer</a
 				>
